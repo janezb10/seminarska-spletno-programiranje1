@@ -1,0 +1,76 @@
+{
+    "articles": 
+    [
+        {
+            "articleID": 1,
+            "articleCategorryID": 1,
+            "title": "Nova grafična kartica",
+            "contentShort": "GIGABYTE GeForce RTX 3060 GAMING OC 12GB GDDR6 RGB gaming grafična kartica je prava izbira za grafiko visoke kakovosti. Moderna tehnologija in sodoben proizvodni proces ponujata navdušujočo vizualizacijo",
+            "content": "Daljši opis"
+        }
+    ],
+    "articleCategoryIDs": 
+    [
+        {
+            "ID": 1,
+            "title": "Grafične kartice"
+        }
+    ],
+    "products":
+    [
+        {
+            "ID": 1,
+            "productCategorryID": 1,
+            "name": "Gigabyte GAMING OC GeForce RTX 3060",
+            "price": 540.99,
+            "description": "GIGABYTE GeForce RTX 3060 GAMING OC 12GB GDDR6 RGB gaming grafična kartica je prava izbira za grafiko visoke kakovosti. Moderna tehnologija in sodoben proizvodni proces ponujata navdušujočo vizualizacijo.",
+            "image": "img/RTX3060.webp",
+            "content": "<h4>WINDFORCE 3X HLADILNI SISTEM</h4><p>Hladilni sistem WINDFORCE 3X ima 3x 80 mm edinstvene ventilatorje z lopaticami, izmenično vrtenje, 3 kompozitne bakrene toplotne cevi z neposrednim dotikom GPU, 3D aktivni ventilator in zaslon, ki skupaj zagotavljajo visoko učinkovito odvajanje toplote.</p><h4>GLAJEN PRETOK ZRAKA<h4><p>GIGABYTE obrača sosednje ventilatorje v nasprotni smeri, tako da je smer zračnega toka med ventilatorjema enaka, kar zmanjšuje turbulenco in povečuje tlak zračnega toka.</p><h4>3D AKTIVNI VENTILATOR</h4><p>3D Active Fan zagotavlja polpasivno hlajenje, ventilatorji pa ostanejo izključeni, ko je GPU v igri z majhno obremenitvijo ali nizko porabo.</p>"
+        },
+        {
+            "ID": 2,
+            "productCategorryID": 1,
+            "name": "ASUS TUF GeForce GTX 1650",
+            "price": 242.99,
+            "description": "Asus grafična kartica TUF Gaming GeForce GTX 1650 OC 4GB V2 vsebuje nabor funkcij, ki prinašajo zanesljivo grafično moč v ekosistem TUF Gaming. Vsaka kartica je izdelana s pomočjo Auto-Extreme in je zaščitena s trdo zadnjo ploščo, ki preprečuje upogibanje PCB.",
+            "image": "img/ASUS-TUF-Geforce-GTX-1650.webp",
+            "content": "<p>Asus grafična kartica TUF Gaming GeForce GTX 1650 OC 4GB V2 vsebuje nabor funkcij, ki prinašajo zanesljivo grafično moč v ekosistem TUF Gaming. Vsaka kartica je izdelana s pomočjo Auto-Extreme in je zaščitena s trdo zadnjo ploščo, ki preprečuje upogibanje PCB. Poleg tega tudi vključuje ventilatorje z lubrikantom visoke kakovosti, ki so zatesnjeni po standardih IP5X. Vse skupaj podpira strog niz validacijskih testov, ki zagotovijo združljivost z najnovejšimi komponentami TUF. Če iščete vrhunsko izdelano grafično kartico, si prisvojite grafično kartico TUF.</p><p>Prah je največji sovražnik vsake grafične kartice. Ventilator je enostavno očistiti, odstranitev prahu, ki se je prebil v notranjost, pa ni preprosta naloga. Certifikata IP5X pomeni, da je ohišje varno pred nezaželjenimi delci, zato nikoli ne boste potrebovali čiščenja notranjosti.</p><p>Precizno avtomatizirana proizvodnja</p><p>Tehnologija Auto-Extreme je avtomatiziran proizvodni postopek, ki postavlja nove standarde v industriji, saj omogoča, da se vsa spajkanja izvedejo v enem prehodu. To zmanjšuje toplotne obremenitve komponent in prepreč uje uporabo ostrih čistilnih kemikalij. To omogoča manjši vpliv na okolje, manjšo porabo proizvodne moči in na splošno zanesljivejši izdelek.</p>"
+        },
+        {
+            "ID": 3,
+            "productCategorryID": 1,
+            "name": "ASUS TUF Gaming GeForce RTX4090",
+            "price": 2499.99,
+            "description": "<p>ASUS TUF Gaming GeForce RTX4090 24GB GDDR6X Graphics Card PCIe 4.0 HDMI 2.1a DisplayPort 1.4a</p>",
+            "image": "img/ASUS-TUF-RTX4090.jpeg",
+            "content": ""
+        }
+    ],
+    "productCategorryIDs":
+    [
+        {
+            "ID": 1,
+            "title": "Grafične kartice"
+        },
+        {
+            "ID": 2,
+            "title": "Procesorji"
+        },
+        {
+            "ID": 3,
+            "title": "Osnovne plošče"
+        },
+        {
+            "ID": 4,
+            "title": "RAM pomnilnik"
+        },
+        {
+            "ID": 5,
+            "title": "Napajalniki"
+        },
+        {
+            "ID": 6,
+            "title": "Računalniška ohišja"
+        }
+    ]
+}

@@ -5,14 +5,75 @@
 // $primary: red;
 
 // PIŠEŠ OD TUKAJ
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap');
 
-$primary: #A2B5BB;
-$secondary: #CFD2CF;
-$danger: #EB1D36;
-$light: #F5EDDC;
-$dark: #333;
-$muted: #666;
+$light: #FFEE95;
+$secondary: #FDDF46;
+$primary: #04286E;
+$danger: #FF4676;
+$muted: #04286E;
+$dark: #080945;
 
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    background-image: url("img/background.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.navbar {
+    border-radius: 10px;
+    background-color: $light;
+
+    .container-fluid {
+        min-height: 8rem;
+
+        .navbar-brand {
+            color: $primary;
+            font-size: 2rem;
+            
+            img {
+                height: 8rem;
+                width: 8rem;
+            }
+        }
+        .nav-item .active{
+            color: dark;
+        }
+        .nav-link {
+            color: $primary;
+        }
+
+        .navbar-toggler {
+            background-color: $secondary;
+        }
+    }
+
+}
+
+.najboljProdajano {
+    .najboljProdajanoNaslov {
+        margin-top: 20px;
+        height: 90px;
+        display: flex;
+        align-items: center;
+
+        h2 {
+            color: $primary;
+        }
+    }
+    .card {
+        border: 1px solid $primary;
+    }
+}
+
+footer {
+    background-color: #585856;
+    padding: 20px;
+}
 
 // DO TUKAJ!
 @import "../node_modules/bootstrap/scss/bootstrap";
