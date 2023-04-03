@@ -43,7 +43,70 @@
             "price": 2499.99,
             "description": "<p>ASUS TUF Gaming GeForce RTX4090 24GB GDDR6X Graphics Card PCIe 4.0 HDMI 2.1a DisplayPort 1.4a</p>",
             "image": "img/ASUS-TUF-RTX4090.jpeg",
-            "content": ""
+            "content": "<p>ASUS TUF Gaming GeForce RTX 4090 OC Edition 24 GB GDDR6X optimiziran znotraj in zunaj za nižje temperature in vzdržljivost.</p><p>Pretočni večprocesorji NVIDIA Ada Lovelace: do 2x večja zmogljivost in energetska učinkovitost</p><p>Tenzorska jedra 4. generacije: Do 2-kratna zmogljivost AI</p><p>Jedra 3. generacije RT: Do 2X zmogljivost sledenja žarkom</p><p>Axial-tech ventilatorji povečani za 23 % večji pretok zraka</p><p>Ležaji z dvojnim krogličnim ventilatorjem trajajo do dvakrat dlje kot običajni modeli</p><p>Kondenzatorji vojaškega razreda, ocenjeni za 20.000 ur pri 105 C, naredijo napajalno vodilo GPU bolj vzdržljivo</p><p>Kovinski eksoskelet dodaja strukturno togost in odprtine za povečanje odvajanja toplote</p><p>Auto-Extreme natančna avtomatizirana proizvodnja za večjo zanesljivost</p>"
+        },
+        {
+            "ID": 4,
+            "productCategorryID": 1,
+            "name": "SAPPHIRE PULSE RX 6650 XT",
+            "price": 378.99,
+            "description": "SAPPHIRE PULSE AMD Radeon RX 6650 XT 8GB RDNA2 gaming grafična kartica",
+            "image": "img/SAPHIRE-PULSE-RX-6650XT.jpeg",
+            "content": "<p>SAPPHIRE PULSE AMD Radeon RX 6650 XT 8GB gaming grafična kartica</p><p>Optimizirana kompozitna toplotna cev.</p><p>Železna zadnja plošča z termalno podlago.</p><p>Zaščita varovalk.</p><p>Dvo-krogljični ležaji</p>"
+        },
+        {
+            "ID": 5,
+            "productCategorryID": 1,
+            "name": "PNY NVIDIA RTX A2000",
+            "price": 999.99,
+            "description": "NVIDIA RTX™ A2000 temelji na arhitekturi NVIDIA Ampere in je izjemno zmogljiva dvo-režna grafična kartica za profesionalce.",
+            "image": "img/NVIDIA RTX A2000.jpeg",
+            "content": "<p>NVIDIA RTX™ A2000 temelji na arhitekturi NVIDIA Ampere in je izjemno zmogljiva dvo-režna grafična kartica za profesionalce. Opremljena je s 26 naprednimi RT jedri, 104 Tensor jedri, 3328 CUDA® jedri in 6 GB video pomnilnika za neverjetno zmogljivost renderiranja, AI, grafike in računanja. Certificirana je za širok nabor profesionalnih aplikacij in testirana s strani vodilnih proizvajalcev in prodajalcev strojne ter programske opreme.</p>"
+        },
+        {
+            "ID": 6,
+            "productCategorryID": 2,
+            "name": "Intel Core i3 10100 BOX",
+            "price": 149.99,
+            "description":"Intel core i3-1000 procesor 10.generacije je 4-jedrni procesor, del serije procesorjev Comet Lake in je narejen v 14 nanometrskem proizvodnem procesu",
+            "image": "img/Intel-Core-i3-10100.jpeg",
+            "content": "<p>podnožje: LGA1200</p><p>takt procesorja: 3.6 GHz, v Turbo načinu do 4.3Ghz</p><p>št. jeder/niti: 4/8</p><p>predpomnilnik: 6 MB</p><p>tehnologija izdelave: 10. generacija</p><p>poraba: 65W</p><p>integrirana grafika: Intel UHD Graphics 630</p>"
+        },
+        {
+            "ID": 7,
+            "productCategorryID": 2,
+            "name": "INTEL Core i5-12600KF BOX",
+            "price": 320.00,
+            "description": "Tehnologija Intel Turbo Boost po potrebi dinamično poveča frekvenco procesorja z izkoriščanjem toplotnega in močnega prostora, da vam zagotovi izbruh hitrosti, ko jo potrebujete.",
+            "image": "src/img/INTEL-i5-12600K.jpeg",
+            "content": "<p>Nova navodila Intel AES (Intel AES-NI) so nabor navodil, ki omogočajo hitro in varno šifriranje in dešifriranje podatkov. AES-NI so dragoceni za široko paleto kriptografskih aplikacij, na primer: aplikacije, ki izvajajo množično šifriranje/dešifriranje, preverjanje pristnosti, generiranje naključnih številk in overjeno šifriranje.</p><p>Tehnologija Intel Turbo Boost po potrebi dinamično poveča frekvenco procesorja z izkoriščanjem toplotnega in močnega prostora, da vam zagotovi izbruh hitrosti, ko jo potrebujete in povečano energijsko učinkovitost, ko je ne potrebujete.</p><p>Max Turbo Frequency je največja frekvenca enega jedra, pri kateri lahko procesor deluje s tehnologijo Intel Turbo Boost in, če obstaja, Intel Turbo Boost Max Technology 3.0 in Intel Thermal Velocity Boost. Frekvenca se običajno meri v gigahercih (GHz) ali milijardah ciklov na sekundo.</p><p>Pomnilnik Intel Optane je revolucionaren nov razred nehlapnega pomnilnika, ki je vmes med sistemskim pomnilnikom in pomnilnikom za pospešitev delovanja in odzivnosti sistema. V kombinaciji z gonilnikom Intel Rapid Storage Technology Driver brezhibno upravlja več nivojev pomnilnika, medtem ko operacijskemu sistemu predstavlja en virtualni pogon, kar zagotavlja, da se podatki, ki se pogosto uporabljajo, nahajajo na najhitrejši stopnji pomnilnika. Pomnilnik Intel Optane zahteva posebno konfiguracijo strojne in programske opreme.</p><p>Intel Device Protection Technology z Boot Guard pomaga zaščititi sistemsko okolje pred operacijskim sistemom pred virusi in napadi zlonamerne programske opreme.</p>"
+        },
+        {
+            "ID": 8,
+            "productCategorryID": 2,
+            "name": "AMD Ryzen 7 PRO 5750G",
+            "price": "325.99",
+            "description": "AMD Ryzen 7 PRO 5750G 3,8/4,6GHz 16MB AM4 Wraith Stealth hladilnik multipack procesor",
+            "image": "img/AMD-RYZEN-7-PRO-5750G.jpeg",
+            "content": "<p>AMD Ryzen PRO namizni procesorji s PRO tehnologijami nudijo sodobne zmogljivosti, varnostne funkcije in brezhibno upravljanje za najzahtevnejša poslovna okolja. Če vaše podjetje zahteva energijsko učinkovito produktivnost, oddaljeno upravljanje sistemov ali pomoč pri zaščiti občutljivih podatkov, potem potrebujete procesorje Ryzen PRO.</p><p>Namizni procesorji AMD Ryzen PRO 5000 omogočajo enostavno združevanje podatkov ali ustvarjanje vsebine. Najbolj učinkovita, hladna in tiha vrhunska 7nm tehnologija prinaša visoke zmogljivosti namiznih osebnih rač unalnikov vseh formatih.</p>"
+        },
+        {
+            "ID": 9,
+            "productCategorryID": 3,
+            "name": "ASUS PRIME B760-PLUS D4",
+            "price": 188.99,
+            "description": "ASUS PRIME B760-PLUS D4 LGA1700 ATX 4xDIMM DDR4 1xDP 1xHDMI 1xVGA 4xSATA 3xM.2 MB",
+            "image": "img/ASUS-PRIME-B760-PLUS.jpeg",
+            "content": "<p>ASUS Prime B760-PLUS D4, osnovna plošča Intel B760 LGA 1700 ATX s PCIe 5.0, tremi režami PCIe 4.0 M.2, DDR4, Realtek 2,5Gb Ethernet, DisplayPort, VGA, HDMI, SATA 6 Gbps, USB 3.2 Gen 2x2 Type-C, sprednji USB 3.2 Gen 1 Type-C, Thunderbolt (USB4), Aura Sync</p><p>Osnovne plošče ASUS serije Prime so strokovno zasnovane tako, da sprostijo celoten potencial procesorjev Intel Core 13. generacije. PRIME B760-PLUS D4, ki se ponaša z robustno zasnovo napajanja, celovitimi hladilnimi rešitvami in inteligentnimi možnostmi nastavitev, uporabnikom in izdelovalcem računalnikov \"naredi sam\" ponuja vrsto optimizacij zmogljivosti prek intuitivnih funkcij programske in vdelane programske opreme.</p>"
+        },
+        {
+            "ID": 10,
+            "productCategorryID": 3,
+            "name": "ASUS TUF GAMING Z790-PLUS",
+            "price": 409.99,
+            "description": "ASUS TUF GAMING Z790-PLUS WIFI LGA1700 4xDIMM DDR5 ATX PCIe 5.0 4xSATA 4xM.2 1xHDMI 1xDP MB",
+            "image": "img/ASUS-TUF-GAMING-Z790.jpeg",
+            "content": "<p>TUF GAMING Z790-PLUS WIFI D4 uporablja vse bistvene elemente najnovejših procesorjev Intel® in jih združuje z zmogljivostmi, ki so primerne za igre, ter preverjeno vzdržljivostjo. Ta osnovna plošča, zasnovana s komponentami vojaške kakovosti, nadgrajeno napajalno rešitvijo in celovitim hladilnim sistemom, presega pričakovanja z zanesljivo zmogljivostjo za maratonsko igranje iger. Osnovne plošče TUF GAMING opravijo tudi strogo testiranje vzdržljivosti, ki zagotavlja, da bodo kos razmeram, v katerih bi drugim lahko spodletelo. Estetsko ta model vključuje reliefno ploščico z imenom in oblikovne elemente satovja, ki odražajo zanesljivost in stabilnost, ki opredeljujeta serijo TUF GAMING.</p>"
         }
     ],
     "productCategorryIDs":
