@@ -25,8 +25,12 @@ body {
   height: 8rem;
   width: 8rem;
 }
+.navbar .container-fluid .nav-item, .navbar .container-xxl .nav-item, .navbar .container-xl .nav-item, .navbar .container-lg .nav-item, .navbar .container-md .nav-item, .navbar .container-sm .nav-item {
+  font-size: 1.2rem;
+}
 .navbar .container-fluid .nav-item .active, .navbar .container-xxl .nav-item .active, .navbar .container-xl .nav-item .active, .navbar .container-lg .nav-item .active, .navbar .container-md .nav-item .active, .navbar .container-sm .nav-item .active {
   color: dark;
+  font-weight: 700;
 }
 .navbar .container-fluid .nav-link, .navbar .container-xxl .nav-link, .navbar .container-xl .nav-link, .navbar .container-lg .nav-link, .navbar .container-md .nav-link, .navbar .container-sm .nav-link {
   color: #04286E;
@@ -34,20 +38,67 @@ body {
 .navbar .container-fluid .navbar-toggler, .navbar .container-xxl .navbar-toggler, .navbar .container-xl .navbar-toggler, .navbar .container-lg .navbar-toggler, .navbar .container-md .navbar-toggler, .navbar .container-sm .navbar-toggler {
   background-color: #FDDF46;
 }
+.navbar .container-fluid form .btn:hover, .navbar .container-xxl form .btn:hover, .navbar .container-xl form .btn:hover, .navbar .container-lg form .btn:hover, .navbar .container-md form .btn:hover, .navbar .container-sm form .btn:hover {
+  color: #FDDF46;
+}
 
-.najboljProdajano .najboljProdajanoNaslov {
+#naslovnaSlike {
+  height: 40vh;
+  overflow: hidden;
+  position: relative;
+}
+
+#najboljProdajano .najboljProdajanoNaslov {
   margin-top: 20px;
   height: 90px;
   display: flex;
   align-items: center;
 }
-.najboljProdajano .najboljProdajanoNaslov h2, .najboljProdajano .najboljProdajanoNaslov .h2 {
+#najboljProdajano .najboljProdajanoNaslov h2, #najboljProdajano .najboljProdajanoNaslov .h2 {
   color: #04286E;
 }
-.najboljProdajano .card {
+#najboljProdajano .card {
   border: 1px solid #04286E;
+  width: 18rem;
+  height: 30rem;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr) 0.3fr repeat(2, 1fr);
+  grid-template-rows: repeat(3, 1fr) 0.3fr repeat(3, 1fr) 0.7fr 1fr;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  margin-bottom: 2rem;
+  background-color: rgba(255, 255, 255, 0.4);
 }
-
+#najboljProdajano .card img {
+  grid-area: 1/1/5/6;
+  padding: 0.5rem;
+  -o-object-fit: contain;
+     object-fit: contain;
+  max-height: 100%;
+  max-width: 100%;
+}
+#najboljProdajano .card .card-titl {
+  padding: 0.5rem;
+  grid-area: 5/1/6/6;
+}
+#najboljProdajano .card .card-tex {
+  padding: 0.5rem;
+  grid-area: 6/1/8/6;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+#najboljProdajano .card .cardCena {
+  padding: 0.5rem;
+  grid-area: 8/1/9/6;
+}
+#najboljProdajano .card .cardPoglej {
+  margin: 0.5rem;
+  grid-area: 9/1/10/3;
+}
+#najboljProdajano .card .cardVKosarico {
+  margin: 0.5rem;
+  grid-area: 9/4/10/6;
+}
 footer {
   background-color: #585856;
   padding: 20px;
@@ -11777,4 +11828,4 @@ textarea.form-control-lg {
   .d-print-none {
     display: none !important;
   }
-}
+}/*# sourceMappingURL=main.css.map */

@@ -41,7 +41,7 @@
             "productCategorryID": 1,
             "name": "ASUS TUF Gaming GeForce RTX4090",
             "price": 2499.99,
-            "description": "<p>ASUS TUF Gaming GeForce RTX4090 24GB GDDR6X Graphics Card PCIe 4.0 HDMI 2.1a DisplayPort 1.4a</p>",
+            "description": "ASUS TUF Gaming GeForce RTX4090 24GB GDDR6X Graphics Card PCIe 4.0 HDMI 2.1a DisplayPort 1.4a",
             "image": "img/ASUS-TUF-RTX4090.jpeg",
             "content": "<p>ASUS TUF Gaming GeForce RTX 4090 OC Edition 24 GB GDDR6X optimiziran znotraj in zunaj za nižje temperature in vzdržljivost.</p><p>Pretočni večprocesorji NVIDIA Ada Lovelace: do 2x večja zmogljivost in energetska učinkovitost</p><p>Tenzorska jedra 4. generacije: Do 2-kratna zmogljivost AI</p><p>Jedra 3. generacije RT: Do 2X zmogljivost sledenja žarkom</p><p>Axial-tech ventilatorji povečani za 23 % večji pretok zraka</p><p>Ležaji z dvojnim krogličnim ventilatorjem trajajo do dvakrat dlje kot običajni modeli</p><p>Kondenzatorji vojaškega razreda, ocenjeni za 20.000 ur pri 105 C, naredijo napajalno vodilo GPU bolj vzdržljivo</p><p>Kovinski eksoskelet dodaja strukturno togost in odprtine za povečanje odvajanja toplote</p><p>Auto-Extreme natančna avtomatizirana proizvodnja za večjo zanesljivost</p>"
         },
@@ -78,7 +78,7 @@
             "name": "INTEL Core i5-12600KF BOX",
             "price": 320.00,
             "description": "Tehnologija Intel Turbo Boost po potrebi dinamično poveča frekvenco procesorja z izkoriščanjem toplotnega in močnega prostora, da vam zagotovi izbruh hitrosti, ko jo potrebujete.",
-            "image": "src/img/INTEL-i5-12600K.jpeg",
+            "image": "img/INTEL-i5-12600K.jpeg",
             "content": "<p>Nova navodila Intel AES (Intel AES-NI) so nabor navodil, ki omogočajo hitro in varno šifriranje in dešifriranje podatkov. AES-NI so dragoceni za široko paleto kriptografskih aplikacij, na primer: aplikacije, ki izvajajo množično šifriranje/dešifriranje, preverjanje pristnosti, generiranje naključnih številk in overjeno šifriranje.</p><p>Tehnologija Intel Turbo Boost po potrebi dinamično poveča frekvenco procesorja z izkoriščanjem toplotnega in močnega prostora, da vam zagotovi izbruh hitrosti, ko jo potrebujete in povečano energijsko učinkovitost, ko je ne potrebujete.</p><p>Max Turbo Frequency je največja frekvenca enega jedra, pri kateri lahko procesor deluje s tehnologijo Intel Turbo Boost in, če obstaja, Intel Turbo Boost Max Technology 3.0 in Intel Thermal Velocity Boost. Frekvenca se običajno meri v gigahercih (GHz) ali milijardah ciklov na sekundo.</p><p>Pomnilnik Intel Optane je revolucionaren nov razred nehlapnega pomnilnika, ki je vmes med sistemskim pomnilnikom in pomnilnikom za pospešitev delovanja in odzivnosti sistema. V kombinaciji z gonilnikom Intel Rapid Storage Technology Driver brezhibno upravlja več nivojev pomnilnika, medtem ko operacijskemu sistemu predstavlja en virtualni pogon, kar zagotavlja, da se podatki, ki se pogosto uporabljajo, nahajajo na najhitrejši stopnji pomnilnika. Pomnilnik Intel Optane zahteva posebno konfiguracijo strojne in programske opreme.</p><p>Intel Device Protection Technology z Boot Guard pomaga zaščititi sistemsko okolje pred operacijskim sistemom pred virusi in napadi zlonamerne programske opreme.</p>"
         },
         {
