@@ -1,5 +1,9 @@
 let products = [];
 let productCategorryIDs = [];
+// let seznamIzdelkov = document.getElementById("seznamIzdelkov");
+// if(izdleki) {
+//     console.log("izdleki so")
+// }
 
 (async function getData() {
     // odstrani /src

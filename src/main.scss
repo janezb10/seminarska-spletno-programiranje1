@@ -126,7 +126,7 @@ body {
             margin: 0.5rem;
             grid-area: 9 / 4 / 10 / 6;
         }
-
+    
         .card-text {
             // text-overflow: ellipsis;
             // white-space: nowrap;
@@ -136,8 +136,37 @@ body {
     }
 }
 
+#izdelki {
+    .katogorije {
+        background-color: #FFCA67;
+        display: flex;
+        
+        h4 {
+            padding: 0.5rem 2rem 0.5rem 0.5rem;
+            margin: 0;
+        }
+
+        .dropdown {
+            .dropdown-menu {
+                background-color: $light;
+                li {
+                    button {
+
+                        &:hover {
+                            background-color: $secondary;
+                        }
+                    }
+                }
+            }
+        }
+        .seznamIzdelkov {
+
+        }
+    }
+}
+
 footer {
-    background-color: #585856;
+    background-color: #846D5D;
     padding: 20px;
 }
 
