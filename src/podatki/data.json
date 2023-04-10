@@ -20,6 +20,7 @@
     [
         {
             "ID": 1,
+            "najboljProdajano": false,
             "productCategorryID": 1,
             "name": "Gigabyte GAMING OC GeForce RTX 3060",
             "price": 540.99,
@@ -29,6 +30,7 @@
         },
         {
             "ID": 2,
+            "najboljProdajano": false,
             "productCategorryID": 1,
             "name": "ASUS TUF GeForce GTX 1650",
             "price": 242.99,
@@ -38,6 +40,7 @@
         },
         {
             "ID": 3,
+            "najboljProdajano": false,
             "productCategorryID": 1,
             "name": "ASUS TUF Gaming GeForce RTX4090",
             "price": 2499.99,
@@ -47,6 +50,7 @@
         },
         {
             "ID": 4,
+            "najboljProdajano": true,
             "productCategorryID": 1,
             "name": "SAPPHIRE PULSE RX 6650 XT",
             "price": 378.99,
@@ -56,6 +60,7 @@
         },
         {
             "ID": 5,
+            "najboljProdajano": false,
             "productCategorryID": 1,
             "name": "PNY NVIDIA RTX A2000",
             "price": 999.99,
@@ -65,6 +70,7 @@
         },
         {
             "ID": 6,
+            "najboljProdajano": true,
             "productCategorryID": 2,
             "name": "Intel Core i3 10100 BOX",
             "price": 149.99,
@@ -74,6 +80,7 @@
         },
         {
             "ID": 7,
+            "najboljProdajano": false,
             "productCategorryID": 2,
             "name": "INTEL Core i5-12600KF BOX",
             "price": 320.00,
@@ -83,6 +90,7 @@
         },
         {
             "ID": 8,
+            "najboljProdajano": true,
             "productCategorryID": 2,
             "name": "AMD Ryzen 7 PRO 5750G",
             "price": "325.99",
@@ -92,6 +100,7 @@
         },
         {
             "ID": 9,
+            "najboljProdajano": false,
             "productCategorryID": 3,
             "name": "ASUS PRIME B760-PLUS D4",
             "price": 188.99,
@@ -101,6 +110,7 @@
         },
         {
             "ID": 10,
+            "najboljProdajano": true,
             "productCategorryID": 3,
             "name": "ASUS TUF GAMING Z790-PLUS",
             "price": 409.99,

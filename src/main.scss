@@ -128,10 +128,7 @@ body {
         }
     
         .card-text {
-            // text-overflow: ellipsis;
-            // white-space: nowrap;
-            // overflow: hidden;
-            // height: 5rem;
+
         }
     }
 }
@@ -159,7 +156,52 @@ body {
                 }
             }
         }
-        .seznamIzdelkov {
+    }
+    #seznamIzdelkov {
+    }
+    .card {
+        border: 1px solid $primary;
+        width: 18rem;
+        height: 30rem;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr) 0.3fr repeat(2, 1fr);
+        grid-template-rows: repeat(3, 1fr) 0.3fr repeat(3, 1fr) 0.7fr 1fr;
+        grid-column-gap: 0px;
+        grid-row-gap: 0px;
+        margin-bottom: 2rem;
+        background-color: rgba(360,360,360,0.4);
+        img {
+            grid-area: 1 / 1 / 5 / 6;
+            padding: 0.5rem;
+            object-fit: contain;
+            max-height: 100%;
+            max-width: 100%;
+        }
+        .card-titl {
+            padding:0.5rem;
+            grid-area: 5 / 1 / 6 / 6;
+        }
+        .card-tex {
+            padding:0.5rem;
+            grid-area: 6 / 1 / 8 / 6;
+            text-overflow: ellipsis;
+            // white-space: nowrap;
+            overflow: hidden;
+        }
+        .cardCena {
+            padding:0.5rem;
+            grid-area: 8 / 1 / 9 / 6;
+        }
+        .cardPoglej {
+            margin: 0.5rem;
+            grid-area: 9 / 1 / 10 / 3;
+        }
+        .cardVKosarico {
+            margin: 0.5rem;
+            grid-area: 9 / 4 / 10 / 6;
+        }
+    
+        .card-text {
 
         }
     }

@@ -54,39 +54,23 @@
             <div class="katogorije">
               <h4>Izberi kategorijo izdelkov: </h4>
               <div class="dropdown">
-                <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <button id="izdelkiDropdown" class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
                   Vsi izdelki
                 </button>
                 <ul class="dropdown-menu">
-                  <li><button class="dropdown-item">Vsi izdelki</button></li>
-                  <li><button class="dropdown-item">Grafične kartice</button></li>
-                  <li><button class="dropdown-item">Procesorji</button></li>
-                  <li><button class="dropdown-item">Osnovne Plošče</button></li>
-                  <li><button class="dropdown-item">RAM pomnilnik</button></li>
-                  <li><button class="dropdown-item">Napajalniki</button></li>
-                  <li><button class="dropdown-item">Računalniška ohišja</button></li>
+                  <li><button class="dropdown-item" onclick="prikaziIzdelke(0)">Vsi izdelki</button></li>
+                  <li><button class="dropdown-item" onclick="prikaziIzdelke(1)">Grafične kartice</button></li>
+                  <li><button class="dropdown-item" onclick="prikaziIzdelke(2)">Procesorji</button></li>
+                  <li><button class="dropdown-item" onclick="prikaziIzdelke(3)">Osnovne Plošče</button></li>
+                  <li><button class="dropdown-item" onclick="prikaziIzdelke(4)">RAM pomnilnik</button></li>
+                  <li><button class="dropdown-item" onclick="prikaziIzdelke(5)">Napajalniki</button></li>
+                  <li><button class="dropdown-item" onclick="prikaziIzdelke(6)">Računalniška ohišja</button></li>
                 </ul>
               </div>
             </div>
 
-            <div id="sekznamIzdelkov" class="row">
+            <div id="seznamIzdelkov" class="row">
 
-            </div>
-          </section>
-          Izpis izdelkov posamezne kategorije (s klikom na določen filter, se naj
-prikažejo le določeni izdelki)
-          <section id="najboljProdajano">
-            <div id="najboljProdajanoIzdelki" class="row">
-              <!-- <div class="col-12 col-md-6 col-lg-4">
-                <div class="card" style="width: 18rem;">
-                  <img src="./img/RTX3060.webp" class="card-img-top" alt="...">
-                  <div class="card-body">
-                    <h5 class="card-title">Gigabyte GAMING OC GeForce RTX 3060</h5>
-                    <p class="card-text">GIGABYTE GeForce RTX 3060 GAMING OC 12GB GDDR6 RGB gaming grafična kartica je prava izbira za grafiko visoke kakovosti. Moderna tehnologija in sodoben proizvodni proces ponujata navdušujočo vizualizacijo.</p>
-                    <a href="#" class="btn btn-primary">Poglej si</a>
-                  </div>
-                </div>
-              </div> -->
             </div>
           </section>
         </main>
