@@ -22,6 +22,7 @@ body {
     background-image: url("img/background.png");
     background-size: cover;
     background-repeat: no-repeat;
+    min-height: 100vh;
 }
 
 .navbar {
@@ -208,6 +209,7 @@ body {
 }
 
 footer {
+    // background-color: #943E71;
     background-color: #846D5D;
     padding: 20px;
 }

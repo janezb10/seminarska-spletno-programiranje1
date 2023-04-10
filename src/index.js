@@ -44,7 +44,7 @@ async function prikaziIzdelke(kategorija = 0) {
     const jsonData = await response.json();
     products = jsonData.products;
     productCategorryIDs = jsonData.productCategorryIDs;
-    const izdelkiHTML = products
+    let izdelkiHTML = products
         .map(e => {
             if(e.productCategorryID == kategorija || kategorija == 0) {
                 return `<div class="col-12 col-md-6 col-lg-4 col-xl-3">
@@ -63,6 +63,9 @@ async function prikaziIzdelke(kategorija = 0) {
             }
             })
         .join("");
+    if(izdelkiHTML == "") {
+        izdelkiHTML ="<h4>V teji kategoriji ni izdelkov</h4>";
+    }
     seznamIzdelkov.innerHTML = izdelkiHTML;
     const gumb = document.getElementById("izdelkiDropdown");
     switch(kategorija) {
