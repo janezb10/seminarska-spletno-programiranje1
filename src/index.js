@@ -3,7 +3,6 @@ let productCategorryIDs = [];
 const najboljProdajani = document.getElementById("najboljProdajanoIzdelki");
 const seznamIzdelkov = document.getElementById("seznamIzdelkov");
 
-
 if(najboljProdajani) {
     (async function getData() {
         const response = await fetch(`/podatki/data.json`);
@@ -142,12 +141,14 @@ async function prikaziIzdelkeVKosarici() {
     if(sessionStorage.getItem("izdelkiVKosarici")) {
         izdelkiVKosarici = [...JSON.parse(sessionStorage.getItem("izdelkiVKosarici"))];
     }
-
+    let cenaIzdelki = 0;
+    let stIzdelkov = 0;
     const izdelkiVKosariciHTML = izdelkiVKosarici
         .map(e => {
             let produkt = products.find(p => p.ID == e.id);
             if(!produkt) return "";
-            
+            cenaIzdelki += produkt.price * e.kolicina;
+            stIzdelkov += e.kolicina;
             return `
             <div class="kosarica-izdelek">
                   <div class="row mb-4 d-flex justify-content-between align-items-center">
@@ -182,20 +183,18 @@ async function prikaziIzdelkeVKosarici() {
                       <h6 class="mb-0">€ ${Math.round(produkt.price * e.kolicina * 100) / 100}</h6>
                     </div>
                     <div class="col-md-1 col-lg-1 col-xl-1 text-end" onclick="odstraniIzKosarice(${e.id})">
-                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-x-lg" viewBox="0 0 16 16">
+                      <svg class="gumbOdstrani" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-x-lg" viewBox="0 0 16 16">
                         <path d="M2.146 2.854a.5.5 0 1 1 .708-.708L8 7.293l5.146-5.147a.5.5 0 0 1 .708.708L8.707 8l5.147 5.146a.5.5 0 0 1-.708.708L8 8.707l-5.146 5.147a.5.5 0 0 1-.708-.708L7.293 8 2.146 2.854Z"/>
                       </svg>
                     </div>
                   </div>
                 </div>
-
             `;
-
-
-
         })
         .join("");
     const kosaricaSeznam = document.getElementById("kosarica-izdelki-seznam");
+    document.getElementById("cenaIzdelki").innerText = Math.round(cenaIzdelki * 100) / 100;;
+    document.getElementById("stIzdelkov").innerText = stIzdelkov;
     kosaricaSeznam.innerHTML = izdelkiVKosariciHTML;
 };
 

@@ -159,6 +159,9 @@ body {
 #kosarica .kosarica-izdelki {
   background-color: #cbd8f1;
 }
+#kosarica .kosarica-izdelki .gumbOdstrani:hover {
+  fill: red;
+}
 #kosarica .kosarica-summary {
   background-color: #846D5D;
 }
