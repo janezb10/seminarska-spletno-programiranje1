@@ -83,7 +83,7 @@
             "najboljProdajano": false,
             "productCategorryID": 2,
             "name": "INTEL Core i5-12600KF BOX",
-            "price": 320.00,
+            "price": 320.99,
             "description": "Tehnologija Intel Turbo Boost po potrebi dinamično poveča frekvenco procesorja z izkoriščanjem toplotnega in močnega prostora, da vam zagotovi izbruh hitrosti, ko jo potrebujete.",
             "image": "img/INTEL-i5-12600K.jpeg",
             "content": "<p>Nova navodila Intel AES (Intel AES-NI) so nabor navodil, ki omogočajo hitro in varno šifriranje in dešifriranje podatkov. AES-NI so dragoceni za široko paleto kriptografskih aplikacij, na primer: aplikacije, ki izvajajo množično šifriranje/dešifriranje, preverjanje pristnosti, generiranje naključnih številk in overjeno šifriranje.</p><p>Tehnologija Intel Turbo Boost po potrebi dinamično poveča frekvenco procesorja z izkoriščanjem toplotnega in močnega prostora, da vam zagotovi izbruh hitrosti, ko jo potrebujete in povečano energijsko učinkovitost, ko je ne potrebujete.</p><p>Max Turbo Frequency je največja frekvenca enega jedra, pri kateri lahko procesor deluje s tehnologijo Intel Turbo Boost in, če obstaja, Intel Turbo Boost Max Technology 3.0 in Intel Thermal Velocity Boost. Frekvenca se običajno meri v gigahercih (GHz) ali milijardah ciklov na sekundo.</p><p>Pomnilnik Intel Optane je revolucionaren nov razred nehlapnega pomnilnika, ki je vmes med sistemskim pomnilnikom in pomnilnikom za pospešitev delovanja in odzivnosti sistema. V kombinaciji z gonilnikom Intel Rapid Storage Technology Driver brezhibno upravlja več nivojev pomnilnika, medtem ko operacijskemu sistemu predstavlja en virtualni pogon, kar zagotavlja, da se podatki, ki se pogosto uporabljajo, nahajajo na najhitrejši stopnji pomnilnika. Pomnilnik Intel Optane zahteva posebno konfiguracijo strojne in programske opreme.</p><p>Intel Device Protection Technology z Boot Guard pomaga zaščititi sistemsko okolje pred operacijskim sistemom pred virusi in napadi zlonamerne programske opreme.</p>"
@@ -93,7 +93,7 @@
             "najboljProdajano": true,
             "productCategorryID": 2,
             "name": "AMD Ryzen 7 PRO 5750G",
-            "price": "325.99",
+            "price": 325.99,
             "description": "AMD Ryzen 7 PRO 5750G 3,8/4,6GHz 16MB AM4 Wraith Stealth hladilnik multipack procesor",
             "image": "img/AMD-RYZEN-7-PRO-5750G.jpeg",
             "content": "<p>AMD Ryzen PRO namizni procesorji s PRO tehnologijami nudijo sodobne zmogljivosti, varnostne funkcije in brezhibno upravljanje za najzahtevnejša poslovna okolja. Če vaše podjetje zahteva energijsko učinkovito produktivnost, oddaljeno upravljanje sistemov ali pomoč pri zaščiti občutljivih podatkov, potem potrebujete procesorje Ryzen PRO.</p><p>Namizni procesorji AMD Ryzen PRO 5000 omogočajo enostavno združevanje podatkov ali ustvarjanje vsebine. Najbolj učinkovita, hladna in tiha vrhunska 7nm tehnologija prinaša visoke zmogljivosti namiznih osebnih rač unalnikov vseh formatih.</p>"
