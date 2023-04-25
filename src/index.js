@@ -169,8 +169,8 @@ async function prikaziIzdelkeVKosarici() {
                         </svg>
                       </button>
 
-                      <input id="form1" min="0" name="quantity" value="${e.kolicina}" disabled readonly type="number"
-                        class="form-control form-control-sm" />
+                      <input min="0" name="quantity" value="${e.kolicina}" disabled readonly type="number"
+                        class="form-control form-control-sm kolicina" />
 
                       <button class="btn btn-link px-2"
                         onclick="this.parentNode.querySelector('input[type=number]').stepUp(); kosaricaSpremembaKolicine(${e.id}, 1);">
@@ -193,8 +193,10 @@ async function prikaziIzdelkeVKosarici() {
         })
         .join("");
     const kosaricaSeznam = document.getElementById("kosarica-izdelki-seznam");
-    document.getElementById("cenaIzdelki").innerText = Math.round(cenaIzdelki * 100) / 100;;
+    cenaIzdelki = Math.round(cenaIzdelki * 100) / 100;
+    document.getElementById("cenaIzdelki").innerText = cenaIzdelki;
     document.getElementById("stIzdelkov").innerText = stIzdelkov;
+    document.getElementById("cenaTotal").innerText = totalPriceZDostavo(cenaIzdelki);
     kosaricaSeznam.innerHTML = izdelkiVKosariciHTML;
 };
 
@@ -203,7 +205,6 @@ if(kosarica) {
 }
 
 function kosaricaSpremembaKolicine(id, vecManj) {
-    console.log("vec")
     let izdelkiVKosarici = [];
     if(sessionStorage.getItem("izdelkiVKosarici")) {
         izdelkiVKosarici = [...JSON.parse(sessionStorage.getItem("izdelkiVKosarici"))];
@@ -225,6 +226,13 @@ function kosaricaSpremembaKolicine(id, vecManj) {
         prikaziIzdelkeVKosarici();
 }
 
+function totalPriceZDostavo(cenaIzdelki) {
+    const dostavaForm = document.getElementById("kosarica-dostava");
+    if(dostavaForm.value == 1) return cenaIzdelki;
+    else if(dostavaForm.value == 2) return cenaIzdelki + 4.5;
+    else if(dostavaForm.value == 3) return cenaIzdelki + 5;
+    else return cenaIzdelki;
+}
 
 // kosarica v sessionStorage
 // [

@@ -127,7 +127,6 @@ body {
             margin: 0.5rem;
             grid-area: 9 / 4 / 10 / 6;
         }
-    
         .card-text {
 
         }
@@ -149,7 +148,6 @@ body {
                 background-color: $light;
                 li {
                     button {
-
                         &:hover {
                             background-color: $secondary;
                         }
@@ -210,7 +208,12 @@ body {
 
 #kosarica {
     .kosarica-izdelki {
-        background-color: #cbd8f1;
+        background-color: rgba(360,360,360,0.4);
+        padding: 2rem;
+
+        .kolicina {
+            min-width: 3rem;
+        }
 
         .gumbOdstrani {
             &:hover {
@@ -219,7 +222,7 @@ body {
         }
     }
     .kosarica-summary {
-        background-color: #846D5D;
+        background-color: rgba(360,360,360,0.5);
     }  
 }
 
