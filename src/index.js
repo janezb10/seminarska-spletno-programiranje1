@@ -19,7 +19,7 @@ if(najboljProdajani) {
                                         <p class="card-tex">${e.description}</p>
                                         <h6 class="cardCena">Cena: ${e.price} eur</h6>
                                         <a href="izdelek.html?id=${e.ID}" class="btn btn-secondary cardPoglej">Poglej si</a>
-                                        <button class="btn cardVKosarico btn-primary" onclick="dodajVKosarico(${e.ID})">v Košarico</button>
+                                        <button class="btn cardVKosarico vKosarico btn-primary" onclick="dodajVKosarico(${e.ID})">v Košarico</button>
                                 </div>
                             </div>`;
                 } else {
@@ -28,6 +28,7 @@ if(najboljProdajani) {
             })
             .join("");
         najboljProdajani.innerHTML = najboljProdajaniIzdelkiHTML;
+        pobarvaj();
     }());
 }
 
@@ -52,7 +53,7 @@ async function prikaziIzdelke(kategorija = 0) {
                                     <p class="card-tex">${e.description}</p>
                                     <h6 class="cardCena">Cena: ${e.price} eur</h6>
                                     <a href="izdelek.html?id=${e.ID}" class="btn btn-secondary cardPoglej">Poglej si</a>
-                                    <button class="btn cardVKosarico btn-primary" onclick="dodajVKosarico(${e.ID})">v Košarico</button>
+                                    <button class="btn cardVKosarico vKosarico btn-primary" onclick="dodajVKosarico(${e.ID})">v Košarico</button>
                             </div>
                         </div>`;
             } else {
@@ -64,6 +65,7 @@ async function prikaziIzdelke(kategorija = 0) {
         izdelkiHTML ="<h4>V teji kategoriji ni izdelkov</h4>";
     }
     seznamIzdelkov.innerHTML = izdelkiHTML;
+    pobarvaj();
     const gumb = document.getElementById("izdelkiDropdown");
     switch(kategorija) {
         case 0:
@@ -121,12 +123,14 @@ async function prikaziIzdelek() {
                 </div>
             </div>
             <div class="izdelekKosarica d-flex justify-content-end">
-                <button type="button" class="btn btn-primary" onclick="dodajVKosarico(${iskaniIzdelek.ID})">v Košarico</button>
+                <button type="button" class="btn btn-primary vKosarico" onclick="dodajVKosarico(${iskaniIzdelek.ID})">v Košarico</button>
             </div>
 
         `;
     }
     izdelek.innerHTML = izdelekHTML;
+    pobarvaj();
+
 }
 
 
@@ -287,18 +291,16 @@ function totalPriceZDostavo(cenaIzdelki) {
 // ]
 
 
-// // Get the text field that we're going to track
-// let field = document.getElementById("field");
 
-// // See if we have an autosave value
-// // (this will only happen if the page is accidentally refreshed)
-// if (sessionStorage.getItem("autosave")) {
-//   // Restore the contents of the text field
-//   field.value = sessionStorage.getItem("autosave");
-// }
+function pobarvaj() {
+    const buttons = document.querySelectorAll('.vKosarico');
+    
+    buttons.forEach((gumb) => {
+        gumb.addEventListener('click', () => {
+            gumb.style.backgroundColor = "#0743B9";
+            gumb.innerText = 'Dodano ✔';
+        })
+    })
+    console.log(buttons);
 
-// // Listen for changes in the text field
-// field.addEventListener("change", () => {
-//   // And save the results into the session storage object
-//   sessionStorage.setItem("autosave", field.value);
-// });
+}
