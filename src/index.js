@@ -1,7 +1,6 @@
 let products = [];
 let productCategorryIDs = [];
 const najboljProdajani = document.getElementById("najboljProdajanoIzdelki");
-const seznamIzdelkov = document.getElementById("seznamIzdelkov");
 
 if(najboljProdajani) {
     (async function getData() {
@@ -19,8 +18,8 @@ if(najboljProdajani) {
                                         <h5 class="card-titl">${e.name}</h5>
                                         <p class="card-tex">${e.description}</p>
                                         <h6 class="cardCena">Cena: ${e.price} eur</h6>
-                                        <a href="#" class="btn btn-primary cardPoglej">Poglej si</a>
-                                        <button class="btn cardVKosarico" onclick="dodajVKosarico(${e.ID})">v Košarico</button>
+                                        <a href="izdelek.html?id=${e.ID}" class="btn btn-secondary cardPoglej">Poglej si</a>
+                                        <button class="btn cardVKosarico btn-primary" onclick="dodajVKosarico(${e.ID})">v Košarico</button>
                                 </div>
                             </div>`;
                 } else {
@@ -32,11 +31,10 @@ if(najboljProdajani) {
     }());
 }
 
+const seznamIzdelkov = document.getElementById("seznamIzdelkov");
 if(seznamIzdelkov) {
     prikaziIzdelke();
 }
-
-
 
 async function prikaziIzdelke(kategorija = 0) {
     const response = await fetch(`/podatki/data.json`);
@@ -53,8 +51,8 @@ async function prikaziIzdelke(kategorija = 0) {
                                     <h5 class="card-titl">${e.name}</h5>
                                     <p class="card-tex">${e.description}</p>
                                     <h6 class="cardCena">Cena: ${e.price} eur</h6>
-                                    <a href="#" class="btn btn-primary cardPoglej">Poglej si</a>
-                                    <button class="btn cardVKosarico" onclick="dodajVKosarico(${e.ID})">v Košarico</button>
+                                    <a href="izdelek.html?id=${e.ID}" class="btn btn-secondary cardPoglej">Poglej si</a>
+                                    <button class="btn cardVKosarico btn-primary" onclick="dodajVKosarico(${e.ID})">v Košarico</button>
                             </div>
                         </div>`;
             } else {
@@ -92,12 +90,50 @@ async function prikaziIzdelke(kategorija = 0) {
 
 };
 
+const izdelek = document.getElementById("izdelek");
+if(izdelek) {
+    prikaziIzdelek();
+}
+async function prikaziIzdelek() {
+    const response = await fetch(`/podatki/data.json`);
+    const jsonData = await response.json();
+    products = jsonData.products;
+
+    const urlParams = new URLSearchParams(window.location.search);
+    const productId = urlParams.get('id');
+
+    const iskaniIzdelek = products.find(i => i.ID == productId);
+    let izdelekHTML = "";
+    if(!iskaniIzdelek) {
+        izdelekHTML = '<h2>Izdelek, ki ste ga iskali ne obstaja</h2><p>Poiščite izdelke <a href="/Izdelki.html">tukaj!</a></p>';
+    }
+    else {
+        izdelekHTML = `
+            <div class="izdelekIme">
+                <h2>${iskaniIzdelek.name}</h2>
+            </div>
+            <div class="izdelekOpis row">
+                <div class="izdelekSlika col-md-12 col-lg-6">
+                    <img class="img-fluid" src="${iskaniIzdelek.image}" alt="slika izdelka">
+                </div>
+                <div class="izdelekContent col-md-12 col-lg-6">
+                    ${iskaniIzdelek.content}
+                </div>
+            </div>
+            <div class="izdelekKosarica d-flex justify-content-end">
+                <button type="button" class="btn btn-primary" onclick="dodajVKosarico(${iskaniIzdelek.ID})">v Košarico</button>
+            </div>
+
+        `;
+    }
+    izdelek.innerHTML = izdelekHTML;
+}
+
+
+
 
 
 function dodajVKosarico(id) {
-    // const response = await fetch(`/podatki/data.json`);
-    // const jsonData = await response.json();
-    // products = jsonData.products;
     let izdelkiVKosarici = [];
     if(sessionStorage.getItem("izdelkiVKosarici")) {
         izdelkiVKosarici = [...JSON.parse(sessionStorage.getItem("izdelkiVKosarici"))];
@@ -127,10 +163,10 @@ function odstraniIzKosarice(id) {
 };
 
 
-// prikazi izdelke v kosarici
 const kosarica = document.getElementById("kosarica");
 
 
+// prikazi izdelke v kosarici
 async function prikaziIzdelkeVKosarici() {
     const response = await fetch(`/podatki/data.json`);
     const jsonData = await response.json();

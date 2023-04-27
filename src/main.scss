@@ -226,6 +226,34 @@ body {
     }
 }
 
+#izdelek {
+    .izdelekIme {
+        background-color: rgba(253, 223, 70, 0.5);
+        padding: 2rem 0 1rem 0.5rem;
+    }
+    .izdelekOpis {
+        // width: 100%;
+        margin: 0;
+        background-color: rgba(255, 238, 149, 0.5);
+        .izdelekSlika {
+            padding: 2rem;
+            img {
+                
+            }
+        }
+        .izdelekContent {
+            padding: 2rem 1rem 0.5rem;
+        }
+    }
+    .izdelekKosarica {
+        background-color: rgba(253, 223, 70, 0.5);
+        padding: 1rem 1rem 2rem;
+        button {
+            
+        }
+    }
+}
+
 #kosarica {
     .kosarica-izdelki {
         background-color: rgba(360,360,360,0.4);

@@ -28,7 +28,7 @@
                   <a class="nav-link"  href="./oTrgovini.html">O trgovini</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="./Izdelki.html">Izdelki</a>
+                  <a class="nav-link active" href="./Izdelki.html">Izdelki</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="./blog.html">Blog</a>
@@ -37,7 +37,7 @@
                   <a class="nav-link" href="./kontakt.html">Kontakt</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link active" href="./kosarica.html">Košarica</a>
+                  <a class="nav-link" href="./kosarica.html">Košarica</a>
                 </li>
               </ul>
               <form class="d-flex" role="search">
@@ -49,58 +49,8 @@
         </nav>
   </header>
     <div class="container">
-        <main>
-          <div id="kosarica" class="row">
-            <div class="kosarica-izdelki col-12 col-lg-7">
-              <h2>Izdelki v košarici:</h2>
-              <hr>
-              <div id="kosarica-izdelki-seznam">
-
-              </div>
-            </div>
-            <div class="kosarica-summary col-12 col-lg-5">
-              <div class="p-5">
-                <h3 class="fw-bold mb-5 mt-2 pt-1">Povzetek</h3>
-                <hr class="my-4">
-
-                <div class="d-flex justify-content-between mb-4">
-                  <h5 class="text-uppercase">Št. izdelkov: <span id="stIzdelkov">0</span></h5>
-                  <h5>€ <span id="cenaIzdelki">132.00</span></h5>
-                </div>
-
-                <h5 class="text-uppercase mb-3">Dostava</h5>
-
-                <div class="mb-4 pb-2">
-                  <select class="form-select" id="kosarica-dostava" onchange="prikaziIzdelkeVKosarici()">
-                    <option value="1">Osebni prevzem + €0</option>
-                    <option value="2">GLS + €4.5 </option>
-                    <option value="3">Pošta Slovenija + €5.00</option>
-                  </select>
-                </div>
-
-                <h5 class="text-uppercase mb-3">Promocijska koda:</h5>
-
-                <div class="mb-5">
-                  <div class="form-outline">
-                    <input type="text" id="promoKoda" class="form-control form-control-md" />
-                    <label class="form-label" for="promoKoda">Vpiši kodo</label>
-                  </div>
-                </div>
-
-                <hr class="my-4">
-
-                <div class="d-flex justify-content-between mb-5">
-                  <h5 class="text-uppercase">Skupaj cena</h5>
-                  <h5>€ <span id="cenaTotal">0</span></h5>
-                </div>
-
-                <button type="button" class="btn btn-dark btn-block btn-lg"
-                  data-mdb-ripple-color="dark">Zaključi nakup</button>
-
-              </div>
-
-            </div>
-          </div>
+        <main id="izdelek" class=""> 
+            
         </main>
       </div>
       <footer class="">
@@ -115,7 +65,7 @@
             <li class="list-group"><a href="./kosarica.html">Košarica</a></li>
           </ul>
           <ul class="list-group list-group-flush">
-            <li class="list-group">Janez</li>
+            <li class="list-group">Janez Brenčič</li>
           </ul>
         </div>     
       </footer>

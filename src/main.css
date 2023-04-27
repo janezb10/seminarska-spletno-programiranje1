@@ -172,6 +172,24 @@ body {
   margin: 0.5rem;
   grid-area: 9/4/10/6;
 }
+#izdelek .izdelekIme {
+  background-color: rgba(253, 223, 70, 0.5);
+  padding: 2rem 0 1rem 0.5rem;
+}
+#izdelek .izdelekOpis {
+  margin: 0;
+  background-color: rgba(255, 238, 149, 0.5);
+}
+#izdelek .izdelekOpis .izdelekSlika {
+  padding: 2rem;
+}
+#izdelek .izdelekOpis .izdelekContent {
+  padding: 2rem 1rem 0.5rem;
+}
+#izdelek .izdelekKosarica {
+  background-color: rgba(253, 223, 70, 0.5);
+  padding: 1rem 1rem 2rem;
+}
 #kosarica .kosarica-izdelki {
   background-color: rgba(255, 255, 255, 0.4);
   padding: 2rem;
