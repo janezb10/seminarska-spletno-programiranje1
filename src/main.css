@@ -100,6 +100,22 @@ body {
   margin: 0.5rem;
   grid-area: 9/4/10/6;
 }
+#oTrgovini .okvir {
+  margin: 1.1rem 0;
+  background-color: rgba(255, 255, 255, 0.4);
+  padding: 2rem;
+  border-radius: 0.2rem;
+}
+#oTrgovini .podatkiInLokacija h3, #oTrgovini .podatkiInLokacija .h3 {
+  margin-top: 1.5rem;
+}
+#oTrgovini .podatkiInLokacija p {
+  margin: 0.5rem 0;
+}
+#oTrgovini .podatkiInLokacija iframe {
+  margin-top: 1rem;
+}
+
 #izdelki .katogorije {
   background-color: #FFCA67;
   display: flex;

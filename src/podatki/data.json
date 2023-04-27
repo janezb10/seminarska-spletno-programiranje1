@@ -3,10 +3,17 @@
     [
         {
             "articleID": 1,
-            "articleCategorryID": 1,
             "title": "Nova grafična kartica",
             "contentShort": "GIGABYTE GeForce RTX 3060 GAMING OC 12GB GDDR6 RGB gaming grafična kartica je prava izbira za grafiko visoke kakovosti. Moderna tehnologija in sodoben proizvodni proces ponujata navdušujočo vizualizacijo",
-            "content": "Daljši opis"
+            "content": "Daljši opis",
+            "image" : ""
+        },
+        {
+            "articleID": 2,
+            "title": "",
+            "contentShort": "" ,
+            "content": "",
+            "image": ""
         }
     ],
     "articleCategoryIDs": 

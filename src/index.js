@@ -143,7 +143,7 @@ async function prikaziIzdelkeVKosarici() {
     }
     let cenaIzdelki = 0;
     let stIzdelkov = 0;
-    const izdelkiVKosariciHTML = izdelkiVKosarici
+    let izdelkiVKosariciHTML = izdelkiVKosarici
         .map(e => {
             let produkt = products.find(p => p.ID == e.id);
             if(!produkt) return "";
@@ -192,6 +192,10 @@ async function prikaziIzdelkeVKosarici() {
             `;
         })
         .join("");
+    // console.log(izdelkiVKosariciHTML);
+    if(izdelkiVKosariciHTML == "") {
+        izdelkiVKosariciHTML = '<p>V košarici trenutno ni izdelkov. Dodaj jih <a href="/Izdelki.html">Tukaj!</a></p>';
+    }
     const kosaricaSeznam = document.getElementById("kosarica-izdelki-seznam");
     cenaIzdelki = Math.round(cenaIzdelki * 100) / 100;
     document.getElementById("cenaIzdelki").innerText = cenaIzdelki;

@@ -133,6 +133,26 @@ body {
     }
 }
 
+#oTrgovini {
+    .okvir {
+        margin: 1.1rem 0;
+        background-color: rgba(360,360,360,0.4);
+        padding: 2rem;
+        border-radius: 0.2rem;
+    }
+    .podatkiInLokacija {
+        h3 {
+            margin-top: 1.5rem;
+        }
+        p {
+            margin: 0.5rem 0;
+        }
+        iframe {
+            margin-top: 1rem;
+        }
+    }
+}
+
 #izdelki {
     .katogorije {
         background-color: #FFCA67;
