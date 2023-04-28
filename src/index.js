@@ -134,9 +134,6 @@ async function prikaziIzdelek() {
 }
 
 
-
-
-
 function dodajVKosarico(id) {
     let izdelkiVKosarici = [];
     if(sessionStorage.getItem("izdelkiVKosarici")) {
@@ -168,7 +165,6 @@ function odstraniIzKosarice(id) {
 
 
 const kosarica = document.getElementById("kosarica");
-
 
 // prikazi izdelke v kosarici
 async function prikaziIzdelkeVKosarici() {
@@ -301,6 +297,70 @@ function pobarvaj() {
             gumb.innerText = 'Dodano ✔';
         })
     })
-    console.log(buttons);
+}
 
+const blog = document.getElementById('blog');
+if(blog) {
+    prikaziBlog();
+}
+
+async function prikaziBlog() {
+    const response = await fetch(`/podatki/data.json`);
+    const jsonData = await response.json();
+    const articles = jsonData.articles;
+
+    const blogHTML = articles.map(e => {
+        return `
+            <div class="col-12 col-md-6 col-lg-4 col-xl-3">
+                <div class="card">
+                    <img src="${e.image}" class="card-img-top" alt="...">
+                    <h5 class="card-titl">${e.title}</h5>
+                    <p class="card-tex">${e.contentShort}</p>
+                    <a href="article.html?id=${e.articleID}" class="btn cardPoglej">Preberi članek</a>
+                </div>
+            </div>
+        `;
+    });
+    blog.innerHTML = blogHTML;
+    // console.log(articles);
+}
+
+const article = document.getElementById("article");
+if(article) {
+    showArticle();
+}
+
+async function showArticle() {
+    const response = await fetch(`/podatki/data.json`);
+    const jsonData = await response.json();
+    articles = jsonData.articles;
+
+    const urlParams = new URLSearchParams(window.location.search);
+    const clanekId = urlParams.get('id');
+    const iskaniClanek = articles.find(i => i.articleID == clanekId);
+
+    let articleHTML = "";
+    if(!iskaniClanek) {
+        articleHTML = '<h2>Članek, ki ste ga iskali ne obstaja</h2><p>Preberi zanimive objave <a href="/blog.html">tukaj!</a></p>';
+    }
+    else {
+        articleHTML = `
+            <div class="articleTitle">
+                <h2>${iskaniClanek.title}</h2>
+            </div>
+            <div class="clanekOpis row">
+                <div class="clanekSlika col-md-12 col-lg-6">
+                    <img class="img-fluid" src="${iskaniClanek.image}" alt="slika pri clanku">
+                </div>
+                <div class="clanekContent col-md-12 col-lg-6">
+                    ${iskaniClanek.content}
+                </div>
+            </div>
+            <div class="nazajNaBlog d-flex justify-content-end">
+                <p>Preberi še več zanimivih objav <a href="/blog.html">tukaj!</a></p>
+            </div>
+
+        `;
+    }
+    article.innerHTML = articleHTML;
 }

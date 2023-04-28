@@ -3,17 +3,10 @@
     [
         {
             "articleID": 1,
-            "title": "Nova grafična kartica",
-            "contentShort": "GIGABYTE GeForce RTX 3060 GAMING OC 12GB GDDR6 RGB gaming grafična kartica je prava izbira za grafiko visoke kakovosti. Moderna tehnologija in sodoben proizvodni proces ponujata navdušujočo vizualizacijo",
-            "content": "Daljši opis",
-            "image" : ""
-        },
-        {
-            "articleID": 2,
-            "title": "",
-            "contentShort": "" ,
-            "content": "",
-            "image": ""
+            "title": "Zakaj je grafična kartica pomembna?",
+            "contentShort": "Grafična kartica je ključni element vsakega računalnika, ki se uporablja za prikaz vizualnih elementov na zaslonu.",
+            "content": "<p>V današnjem času so računalniki neizogibni del našega življenja. Ne glede na to, ali gre za delo, študij, igranje iger ali celo ustvarjanje vsebine, skoraj vsakdo potrebuje računalnik. Grafična kartica je ključni element vsakega računalnika, ki se uporablja za prikaz vizualnih elementov na zaslonu. V zadnjih nekaj letih je bila grafična industrija priča velikemu razvoju in napredku. Danes imamo na voljo veliko možnosti pri izbiri grafične kartice, od najcenejših do najdražjih. V tem članku bomo razložili, zakaj se splača kupiti boljšo grafično kartico.</p> <h5>1. Boljše zmogljivosti</h5> <p>Boljša grafična kartica pomeni boljše zmogljivosti. Z nakupom boljše grafične kartice lahko dosežete višje slike na sekundo (FPS) v igrah in drugih grafično zahtevnih aplikacijah. To pomeni, da boste imeli boljšo izkušnjo pri igranju iger ali pri urejanju videoposnetkov. Boljša grafična kartica vam omogoča tudi, da uporabljate bolj visoko ločljive zaslone in več zaslonov hkrati.</p><h5>2. Večja zanesljivost</h5> <p>Boljše grafične kartice so običajno bolj zanesljive. To pomeni, da boste imeli manj težav z zrušitvami sistema in drugimi tehničnimi težavami. Boljša grafična kartica ima tudi boljšo kakovost izdelave, kar lahko zmanjša tveganje za okvare in napake.</p><h5>3. Boljša kakovost slike</h5> <p>Boljša grafična kartica vam omogoča, da uživate v boljši kakovosti slike. To velja tako za igre kot tudi za druge aplikacije. Boljša grafična kartica lahko uporablja boljši antialiasing, HDR, senco in druge grafične tehnologije za izboljšanje kakovosti slike.</p> <h5>4. Prihodnja združljivost</h5> <p>Z nakupom boljše grafične kartice boste lahko uporabljali novejše tehnologije in aplikacije, ki bodo izdane v prihodnosti. Boljše grafične kartice so pogosto bolj pripravljene na prihodnje nadgradnje in nove tehnologije.</p> <h5>Večji izbor igralnih naslovov</h5> <p>Boljše grafične kartice vam omogočajo, da igrate več igralnih naslovov. Novejše igre zahtevajo boljše grafi</p>",
+            "image" : "img/graficne-kartice.jpg"
         }
     ],
     "articleCategoryIDs": 

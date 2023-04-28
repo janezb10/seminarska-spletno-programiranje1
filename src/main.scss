@@ -5,7 +5,7 @@
 // $primary: red;
 
 // PIŠEŠ OD TUKAJ
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&display=swap');
 
 $light: #FFEE95;
 $secondary: #FDDF46;
@@ -156,11 +156,15 @@ body {
 
 #izdelki {
     .katogorije {
-        background-color: #FFCA67;
+        // background-color: #FFCA67;
+        background-color: rgba(253, 223, 70, 0.5);
+
         display: flex;
+        color: $primary;
+        padding: 0.5rem 1rem;
         
         h4 {
-            padding: 0.5rem 2rem 0.5rem 0.5rem;
+            padding-right: 1rem;
             margin: 0;
         }
 
@@ -255,6 +259,59 @@ body {
     }
 }
 
+#blogMain {
+    h2 {
+        background-color: rgba(253, 223, 70, 0.5);
+        padding: 0.5rem 1rem;
+        color: $primary;
+    }
+    #blog {
+        .card {
+            border: 1px solid $primary;
+            width: 18rem;
+            height: 30rem;
+            display: grid;
+            grid-template-columns: repeat(2, 1fr) 0.3fr repeat(2, 1fr);
+            grid-template-rows: repeat(3, 1fr) 0.3fr repeat(3, 1fr) 0.7fr 1fr;
+            grid-column-gap: 0px;
+            grid-row-gap: 0px;
+            margin-bottom: 2rem;
+            background-color: rgba(360,360,360,0.4);
+            img {
+                grid-area: 1 / 1 / 5 / 6;
+                padding: 0.5rem;
+                object-fit: contain;
+                max-height: 100%;
+                max-width: 100%;
+            }
+            .card-titl {
+                padding:0.5rem;
+                grid-area: 5 / 1 / 6 / 6;
+                font-weight: 500;
+            }
+            .card-tex {
+                padding:0.5rem;
+                grid-area: 6 / 1 / 9 / 6;
+                text-overflow: ellipsis;
+                // white-space: nowrap;
+                overflow: hidden;
+            }
+            .cardPoglej {
+                margin: 0.5rem;
+                grid-area: 9 / 1 / 10 / 6;
+                background-color: $light;
+                font-weight: 600;
+                color: $primary;
+
+                &:hover {
+                    background-color: $secondary;
+                }
+            }
+        }
+    }
+}
+
+
 #kosarica {
     .kosarica-izdelki {
         background-color: rgba(360,360,360,0.4);
@@ -282,8 +339,16 @@ footer {
     background-color: rgba(0, 0, 0, 0.2);
 
     padding: 20px;
-    
-    color: #fff;
+    color: $secondary;
+    a {
+        color: $light;
+        text-decoration: none;
+        padding-left: 0.5rem;
+
+        &:hover {
+            color: $secondary;
+        }
+    }
 }
 
 // DO TUKAJ!
