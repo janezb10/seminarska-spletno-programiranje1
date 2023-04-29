@@ -3,17 +3,11 @@
     [
         {
             "articleID": 1,
+            "naNaslovniStrani": true,
             "title": "Zakaj je grafična kartica pomembna?",
             "contentShort": "Grafična kartica je ključni element vsakega računalnika, ki se uporablja za prikaz vizualnih elementov na zaslonu.",
-            "content": "<p>V današnjem času so računalniki neizogibni del našega življenja. Ne glede na to, ali gre za delo, študij, igranje iger ali celo ustvarjanje vsebine, skoraj vsakdo potrebuje računalnik. Grafična kartica je ključni element vsakega računalnika, ki se uporablja za prikaz vizualnih elementov na zaslonu. V zadnjih nekaj letih je bila grafična industrija priča velikemu razvoju in napredku. Danes imamo na voljo veliko možnosti pri izbiri grafične kartice, od najcenejših do najdražjih. V tem članku bomo razložili, zakaj se splača kupiti boljšo grafično kartico.</p> <h5>1. Boljše zmogljivosti</h5> <p>Boljša grafična kartica pomeni boljše zmogljivosti. Z nakupom boljše grafične kartice lahko dosežete višje slike na sekundo (FPS) v igrah in drugih grafično zahtevnih aplikacijah. To pomeni, da boste imeli boljšo izkušnjo pri igranju iger ali pri urejanju videoposnetkov. Boljša grafična kartica vam omogoča tudi, da uporabljate bolj visoko ločljive zaslone in več zaslonov hkrati.</p><h5>2. Večja zanesljivost</h5> <p>Boljše grafične kartice so običajno bolj zanesljive. To pomeni, da boste imeli manj težav z zrušitvami sistema in drugimi tehničnimi težavami. Boljša grafična kartica ima tudi boljšo kakovost izdelave, kar lahko zmanjša tveganje za okvare in napake.</p><h5>3. Boljša kakovost slike</h5> <p>Boljša grafična kartica vam omogoča, da uživate v boljši kakovosti slike. To velja tako za igre kot tudi za druge aplikacije. Boljša grafična kartica lahko uporablja boljši antialiasing, HDR, senco in druge grafične tehnologije za izboljšanje kakovosti slike.</p> <h5>4. Prihodnja združljivost</h5> <p>Z nakupom boljše grafične kartice boste lahko uporabljali novejše tehnologije in aplikacije, ki bodo izdane v prihodnosti. Boljše grafične kartice so pogosto bolj pripravljene na prihodnje nadgradnje in nove tehnologije.</p> <h5>Večji izbor igralnih naslovov</h5> <p>Boljše grafične kartice vam omogočajo, da igrate več igralnih naslovov. Novejše igre zahtevajo boljše grafi</p>",
+            "content": "<p>V današnjem času so računalniki neizogibni del našega življenja. Ne glede na to, ali gre za delo, študij, igranje iger ali celo ustvarjanje vsebine, skoraj vsakdo potrebuje računalnik. Grafična kartica je ključni element vsakega računalnika, ki se uporablja za prikaz vizualnih elementov na zaslonu. V zadnjih nekaj letih je bila grafična industrija priča velikemu razvoju in napredku. Danes imamo na voljo veliko možnosti pri izbiri grafične kartice, od najcenejših do najdražjih. V tem članku bomo razložili, zakaj se splača kupiti boljšo grafično kartico.</p> <h5>1. Boljše zmogljivosti</h5> <p>Boljša grafična kartica pomeni boljše zmogljivosti. Z nakupom boljše grafične kartice lahko dosežete višje slike na sekundo (FPS) v igrah in drugih grafično zahtevnih aplikacijah. To pomeni, da boste imeli boljšo izkušnjo pri igranju iger ali pri urejanju videoposnetkov. Boljša grafična kartica vam omogoča tudi, da uporabljate bolj visoko ločljive zaslone in več zaslonov hkrati.</p><h5>2. Večja zanesljivost</h5> <p>Boljše grafične kartice so običajno bolj zanesljive. To pomeni, da boste imeli manj težav z zrušitvami sistema in drugimi tehničnimi težavami. Boljša grafična kartica ima tudi boljšo kakovost izdelave, kar lahko zmanjša tveganje za okvare in napake.</p><h5>3. Boljša kakovost slike</h5> <p>Boljša grafična kartica vam omogoča, da uživate v boljši kakovosti slike. To velja tako za igre kot tudi za druge aplikacije. Boljša grafična kartica lahko uporablja boljši antialiasing, HDR, senco in druge grafične tehnologije za izboljšanje kakovosti slike.</p> <h5>4. Prihodnja združljivost</h5> <p>Z nakupom boljše grafične kartice boste lahko uporabljali novejše tehnologije in aplikacije, ki bodo izdane v prihodnosti. Boljše grafične kartice so pogosto bolj pripravljene na prihodnje nadgradnje in nove tehnologije.</p> <h5>5. Večji izbor igralnih naslovov</h5> <p>Boljše grafične kartice vam omogočajo, da igrate več igralnih naslovov. Novejše igre zahtevajo boljše grafične kartice.</p>",
             "image" : "img/graficne-kartice.jpg"
-        }
-    ],
-    "articleCategoryIDs": 
-    [
-        {
-            "ID": 1,
-            "title": "Grafične kartice"
         }
     ],
     "products":
@@ -26,8 +20,8 @@
             "price": 540.99,
             "description": "GIGABYTE GeForce RTX 3060 GAMING OC 12GB GDDR6 RGB gaming grafična kartica je prava izbira za grafiko visoke kakovosti. Moderna tehnologija in sodoben proizvodni proces ponujata navdušujočo vizualizacijo.",
             "image": "img/RTX3060.webp",
-            "content": "<h4>WINDFORCE 3X HLADILNI SISTEM</h4><p>Hladilni sistem WINDFORCE 3X ima 3x 80 mm edinstvene ventilatorje z lopaticami, izmenično vrtenje, 3 kompozitne bakrene toplotne cevi z neposrednim dotikom GPU, 3D aktivni ventilator in zaslon, ki skupaj zagotavljajo visoko učinkovito odvajanje toplote.</p><h4>GLAJEN PRETOK ZRAKA<h4><p>GIGABYTE obrača sosednje ventilatorje v nasprotni smeri, tako da je smer zračnega toka med ventilatorjema enaka, kar zmanjšuje turbulenco in povečuje tlak zračnega toka.</p><h4>3D AKTIVNI VENTILATOR</h4><p>3D Active Fan zagotavlja polpasivno hlajenje, ventilatorji pa ostanejo izključeni, ko je GPU v igri z majhno obremenitvijo ali nizko porabo.</p>"
-        },
+            "content": "<h4>WINDFORCE 3X HLADILNI SISTEM</h4><p>Hladilni sistem WINDFORCE 3X ima 3x 80 mm edinstvene ventilatorje z lopaticami, izmenično vrtenje, 3 kompozitne bakrene toplotne cevi z neposrednim dotikom GPU, 3D aktivni ventilator in zaslon, ki skupaj zagotavljajo visoko učinkovito odvajanje toplote.</p><h4>GLAJEN PRETOK ZRAKA</h4><p>GIGABYTE obrača sosednje ventilatorje v nasprotni smeri, tako da je smer zračnega toka med ventilatorjema enaka, kar zmanjšuje turbulenco in povečuje tlak zračnega toka.</p><h4>3D AKTIVNI VENTILATOR</h4><p>3D Active Fan zagotavlja polpasivno hlajenje, ventilatorji pa ostanejo izključeni, ko je GPU v igri z majhno obremenitvijo ali nizko porabo.</p>"
+        }, 
         {
             "ID": 2,
             "najboljProdajano": false,
@@ -46,7 +40,7 @@
             "price": 2499.99,
             "description": "ASUS TUF Gaming GeForce RTX4090 24GB GDDR6X Graphics Card PCIe 4.0 HDMI 2.1a DisplayPort 1.4a",
             "image": "img/ASUS-TUF-RTX4090.jpeg",
-            "content": "<p>ASUS TUF Gaming GeForce RTX 4090 OC Edition 24 GB GDDR6X optimiziran znotraj in zunaj za nižje temperature in vzdržljivost.</p><p>Pretočni večprocesorji NVIDIA Ada Lovelace: do 2x večja zmogljivost in energetska učinkovitost</p><p>Tenzorska jedra 4. generacije: Do 2-kratna zmogljivost AI</p><p>Jedra 3. generacije RT: Do 2X zmogljivost sledenja žarkom</p><p>Axial-tech ventilatorji povečani za 23 % večji pretok zraka</p><p>Ležaji z dvojnim krogličnim ventilatorjem trajajo do dvakrat dlje kot običajni modeli</p><p>Kondenzatorji vojaškega razreda, ocenjeni za 20.000 ur pri 105 C, naredijo napajalno vodilo GPU bolj vzdržljivo</p><p>Kovinski eksoskelet dodaja strukturno togost in odprtine za povečanje odvajanja toplote</p><p>Auto-Extreme natančna avtomatizirana proizvodnja za večjo zanesljivost</p>"
+            "content": "<p><b>ASUS TUF Gaming GeForce RTX 4090 OC Edition 24 GB GDDR6X</b> optimiziran znotraj in zunaj za nižje temperature in vzdržljivost.</p><p>Pretočni večprocesorji <b>NVIDIA Ada Lovelace</b>: do 2x večja zmogljivost in energetska učinkovitost</p><p>Tenzorska jedra 4. generacije: Do 2-kratna zmogljivost AI</p><p>Jedra 3. generacije RT: Do 2X zmogljivost sledenja žarkom</p><p><b>Axial-tech</b> ventilatorji povečani za 23 % večji pretok zraka</p><p>Ležaji z dvojnim krogličnim ventilatorjem trajajo do dvakrat dlje kot običajni modeli</p><p>Kondenzatorji vojaškega razreda, ocenjeni za 20.000 ur pri 105 C, naredijo napajalno vodilo GPU bolj vzdržljivo</p><p>Kovinski eksoskelet dodaja strukturno togost in odprtine za povečanje odvajanja toplote</p><p><b>Auto-Extreme</b> natančna avtomatizirana proizvodnja za večjo zanesljivost</p>"
         },
         {
             "ID": 4,
@@ -56,7 +50,7 @@
             "price": 378.99,
             "description": "SAPPHIRE PULSE AMD Radeon RX 6650 XT 8GB RDNA2 gaming grafična kartica",
             "image": "img/SAPHIRE-PULSE-RX-6650XT.jpeg",
-            "content": "<p>SAPPHIRE PULSE AMD Radeon RX 6650 XT 8GB gaming grafična kartica</p><p>Optimizirana kompozitna toplotna cev.</p><p>Železna zadnja plošča z termalno podlago.</p><p>Zaščita varovalk.</p><p>Dvo-krogljični ležaji</p>"
+            "content": "<p><b>SAPPHIRE PULSE AMD Radeon RX 6650 XT 8GB</b> gaming grafična kartica</p><p>Optimizirana <b>kompozitna toplotna cev</b>.</p><p>Železna zadnja plošča z <b>termalno podlago</b>.</p><p>Zaščita varovalk.</p><p>Dvo-krogljični ležaji</p>"
         },
         {
             "ID": 5,
@@ -66,7 +60,7 @@
             "price": 999.99,
             "description": "NVIDIA RTX™ A2000 temelji na arhitekturi NVIDIA Ampere in je izjemno zmogljiva dvo-režna grafična kartica za profesionalce.",
             "image": "img/NVIDIA RTX A2000.jpeg",
-            "content": "<p>NVIDIA RTX™ A2000 temelji na arhitekturi NVIDIA Ampere in je izjemno zmogljiva dvo-režna grafična kartica za profesionalce. Opremljena je s 26 naprednimi RT jedri, 104 Tensor jedri, 3328 CUDA® jedri in 6 GB video pomnilnika za neverjetno zmogljivost renderiranja, AI, grafike in računanja. Certificirana je za širok nabor profesionalnih aplikacij in testirana s strani vodilnih proizvajalcev in prodajalcev strojne ter programske opreme.</p>"
+            "content": "<p><b>NVIDIA RTX™ A2000 </b> temelji na arhitekturi <b>NVIDIA Ampere</b> in je izjemno zmogljiva dvo-režna grafična kartica za profesionalce. Opremljena je s <b>26 naprednimi RT jedri, 104 Tensor jedri, 3328 CUDA® jedri in 6 GB video pomnilnika</b> za neverjetno zmogljivost renderiranja, AI, grafike in računanja. Certificirana je za širok nabor profesionalnih aplikacij in testirana s strani vodilnih proizvajalcev in prodajalcev strojne ter programske opreme.</p>"
         },
         {
             "ID": 6,
@@ -76,7 +70,7 @@
             "price": 149.99,
             "description":"Intel core i3-1000 procesor 10.generacije je 4-jedrni procesor, del serije procesorjev Comet Lake in je narejen v 14 nanometrskem proizvodnem procesu",
             "image": "img/Intel-Core-i3-10100.jpeg",
-            "content": "<p>podnožje: LGA1200</p><p>takt procesorja: 3.6 GHz, v Turbo načinu do 4.3Ghz</p><p>št. jeder/niti: 4/8</p><p>predpomnilnik: 6 MB</p><p>tehnologija izdelave: 10. generacija</p><p>poraba: 65W</p><p>integrirana grafika: Intel UHD Graphics 630</p>"
+            "content": "<p>podnožje: <b>LGA1200</b></p><p>takt procesorja: <b>3.6 GHz, v Turbo načinu do 4.3Ghz</b></p><p>št. jeder/niti: <b>4/8</b></p><p>predpomnilnik: <b>6 MB</b></p><p>tehnologija izdelave: <b>10. generacija</b></p><p>poraba:<b> 65W</b></p><p>integrirana grafika: <b>Intel UHD Graphics 630</b></p>"
         },
         {
             "ID": 7,
@@ -86,7 +80,7 @@
             "price": 320.99,
             "description": "Tehnologija Intel Turbo Boost po potrebi dinamično poveča frekvenco procesorja z izkoriščanjem toplotnega in močnega prostora, da vam zagotovi izbruh hitrosti, ko jo potrebujete.",
             "image": "img/INTEL-i5-12600K.jpeg",
-            "content": "<p>Nova navodila Intel AES (Intel AES-NI) so nabor navodil, ki omogočajo hitro in varno šifriranje in dešifriranje podatkov. AES-NI so dragoceni za široko paleto kriptografskih aplikacij, na primer: aplikacije, ki izvajajo množično šifriranje/dešifriranje, preverjanje pristnosti, generiranje naključnih številk in overjeno šifriranje.</p><p>Tehnologija Intel Turbo Boost po potrebi dinamično poveča frekvenco procesorja z izkoriščanjem toplotnega in močnega prostora, da vam zagotovi izbruh hitrosti, ko jo potrebujete in povečano energijsko učinkovitost, ko je ne potrebujete.</p><p>Max Turbo Frequency je največja frekvenca enega jedra, pri kateri lahko procesor deluje s tehnologijo Intel Turbo Boost in, če obstaja, Intel Turbo Boost Max Technology 3.0 in Intel Thermal Velocity Boost. Frekvenca se običajno meri v gigahercih (GHz) ali milijardah ciklov na sekundo.</p><p>Pomnilnik Intel Optane je revolucionaren nov razred nehlapnega pomnilnika, ki je vmes med sistemskim pomnilnikom in pomnilnikom za pospešitev delovanja in odzivnosti sistema. V kombinaciji z gonilnikom Intel Rapid Storage Technology Driver brezhibno upravlja več nivojev pomnilnika, medtem ko operacijskemu sistemu predstavlja en virtualni pogon, kar zagotavlja, da se podatki, ki se pogosto uporabljajo, nahajajo na najhitrejši stopnji pomnilnika. Pomnilnik Intel Optane zahteva posebno konfiguracijo strojne in programske opreme.</p><p>Intel Device Protection Technology z Boot Guard pomaga zaščititi sistemsko okolje pred operacijskim sistemom pred virusi in napadi zlonamerne programske opreme.</p>"
+            "content": "<p>Nova navodila <b>Intel AES (Intel AES-NI)</b> so nabor navodil, ki omogočajo hitro in varno šifriranje in dešifriranje podatkov.<b> AES-NI</b> so dragoceni za široko paleto kriptografskih aplikacij, na primer: aplikacije, ki izvajajo množično šifriranje/dešifriranje, preverjanje pristnosti, generiranje naključnih številk in overjeno šifriranje.</p><p>Tehnologija <b>Intel Turbo Boost</b> po potrebi dinamično poveča frekvenco procesorja z izkoriščanjem toplotnega in močnega prostora, da vam zagotovi izbruh hitrosti, ko jo potrebujete in povečano energijsko učinkovitost, ko je ne potrebujete.</p><p><b>Max Turbo Frequency</b> je največja frekvenca enega jedra, pri kateri lahko procesor deluje s tehnologijo <b>Intel Turbo Boost</b> in, če obstaja, <b>Intel Turbo Boost Max Technology 3.0</b> in <b>Intel Thermal Velocity Boost</b>. Frekvenca se običajno meri v gigahercih (GHz) ali milijardah ciklov na sekundo.</p><p>Pomnilnik <b>Intel Optane</b> je revolucionaren nov razred nehlapnega pomnilnika, ki je vmes med sistemskim pomnilnikom in pomnilnikom za pospešitev delovanja in odzivnosti sistema. V kombinaciji z gonilnikom <b>Intel Rapid Storage Technology Driver</b> brezhibno upravlja več nivojev pomnilnika, medtem ko operacijskemu sistemu predstavlja en virtualni pogon, kar zagotavlja, da se podatki, ki se pogosto uporabljajo, nahajajo na najhitrejši stopnji pomnilnika. Pomnilnik <b>Intel Optane</b> zahteva posebno konfiguracijo strojne in programske opreme.</p><p>I<b>ntel Device Protection Technology</b> z <b>Boot Guard</b> pomaga zaščititi sistemsko okolje pred operacijskim sistemom pred virusi in napadi zlonamerne programske opreme.</p>"
         },
         {
             "ID": 8,
@@ -96,27 +90,227 @@
             "price": 325.99,
             "description": "AMD Ryzen 7 PRO 5750G 3,8/4,6GHz 16MB AM4 Wraith Stealth hladilnik multipack procesor",
             "image": "img/AMD-RYZEN-7-PRO-5750G.jpeg",
-            "content": "<p>AMD Ryzen PRO namizni procesorji s PRO tehnologijami nudijo sodobne zmogljivosti, varnostne funkcije in brezhibno upravljanje za najzahtevnejša poslovna okolja. Če vaše podjetje zahteva energijsko učinkovito produktivnost, oddaljeno upravljanje sistemov ali pomoč pri zaščiti občutljivih podatkov, potem potrebujete procesorje Ryzen PRO.</p><p>Namizni procesorji AMD Ryzen PRO 5000 omogočajo enostavno združevanje podatkov ali ustvarjanje vsebine. Najbolj učinkovita, hladna in tiha vrhunska 7nm tehnologija prinaša visoke zmogljivosti namiznih osebnih rač unalnikov vseh formatih.</p>"
+            "content": "<p><b>AMD Ryzen PRO</b> namizni procesorji s <b>PRO tehnologijami</b> nudijo sodobne zmogljivosti, varnostne funkcije in brezhibno upravljanje za najzahtevnejša poslovna okolja. Če vaše podjetje zahteva energijsko učinkovito produktivnost, oddaljeno upravljanje sistemov ali pomoč pri zaščiti občutljivih podatkov, potem potrebujete procesorje <b>Ryzen PRO</b>.</p><p>Namizni procesorji <b>AMD Ryzen PRO 5000</b> omogočajo enostavno združevanje podatkov ali ustvarjanje vsebine. Najbolj učinkovita, <b>hladna in tiha vrhunska 7nm tehnologija</b> prinaša visoke zmogljivosti namiznih osebnih rač unalnikov vseh formatih.</p>"
         },
         {
             "ID": 9,
+            "najboljProdajano": false,
+            "productCategorryID": 2,
+            "name": "INTEL Core i7-11700K BOX",
+            "price": 446.60,
+            "description": "Intel predstavlja 11. generacijo procesorjev Rocket Lake, ki so posebej oblikovani za poganjanje zahtevnih procesov, kot so igre in programi za obdelavo večje količine podatkov.",
+            "image": "img/INTEL-Core-i7-11700K-BOX.jpeg",
+            "content": "<p><b>Intel Core i7-11700K</b> je visoko zmogljiv procesor, ki je bil izdan leta 2021. Je del Intelove serije <b>Core i7 11. generacije</b> in je zgrajen na <b>14nm procesni tehnologiji</b>. Procesor ima osnovno frekvenco <b>3,6 GHz</b> in ga je mogoče povečati do <b>5,0 GHz</b> z Intelovo tehnologijo <b>Turbo Boost Max 3.0</b>.</p><p><b>I7-11700K</b> ima <b>8 jeder in 16 niti</b>, kar mu omogoča enostavno opravljanje več nalog hkrati. Podpira tudi Intelovo tehnologijo <b>Hyper-Threading</b>, ki vsakemu jedru omogoča, da obdeluje dve niti hkrati, kar dodatno izboljša njegove večopravilne zmogljivosti.</p><p>Procesor <b>ima TDP (Thermal Design Power) 125 vatov</b> in podpira do <b>128 GB pomnilnika DDR4</b>. Ima tudi integrirano <b>Intel UHD Graphics 750</b>, ki zagotavlja spodobno grafično zmogljivost za vsakodnevna opravila in lahkotno igranje iger.</p><p>Na splošno je <b>Intel Core i7-11700K</b> zmogljiv procesor, ki ponuja visoko zmogljivost in učinkovitost, zaradi česar je primeren za zahtevne aplikacije, kot so igranje iger, urejanje videa in obdelava podatkov.</p>"
+        },
+        {
+            "ID": 10,
+            "najboljProdajano": false,
+            "productCategorryID": 2,
+            "name": "AMD Ryzen 7 5800X",
+            "price": 350.20,
+            "description": "Vrhunski 8-jedrni procesor AMD Ryzen™ 7 5800X deluje pri osnovni frekvenci 3,8 GHz za brezhibno delo in zabavo ter Boost frekvenci do kar 4,7 GHz.",
+            "image": "img/AMD-Ryzen-7-5800X.jpeg",
+            "content": "<p> <b>AMD</b> predstavlja zmogljive Ryzen procesorje s <b>7 nm</b> tehnologijo izdelave in napredno mikroarhitekturo <b>Zen 3,</b> ki so oblikovani z namenom, da zagotovijo vrhunsko zmogljivost tako za delo kot tudi za zabavo.</p><p>Procesor <b>AMD Ryzen™ 7 5800X</b> se ponaša s kar <b>8 jedri in 16 nitmi</b> za neverjetno procesorsko moč. Odlikuje ga osnovna frekvenca delovanja <b>3,8 GHz</b> z maksimalno <b>Boost frekvenco do 4,7 GHz</b>.</p>"
+        },
+        {
+            "ID": 11,
             "najboljProdajano": false,
             "productCategorryID": 3,
             "name": "ASUS PRIME B760-PLUS D4",
             "price": 188.99,
             "description": "ASUS PRIME B760-PLUS D4 LGA1700 ATX 4xDIMM DDR4 1xDP 1xHDMI 1xVGA 4xSATA 3xM.2 MB",
             "image": "img/ASUS-PRIME-B760-PLUS.jpeg",
-            "content": "<p>ASUS Prime B760-PLUS D4, osnovna plošča Intel B760 LGA 1700 ATX s PCIe 5.0, tremi režami PCIe 4.0 M.2, DDR4, Realtek 2,5Gb Ethernet, DisplayPort, VGA, HDMI, SATA 6 Gbps, USB 3.2 Gen 2x2 Type-C, sprednji USB 3.2 Gen 1 Type-C, Thunderbolt (USB4), Aura Sync</p><p>Osnovne plošče ASUS serije Prime so strokovno zasnovane tako, da sprostijo celoten potencial procesorjev Intel Core 13. generacije. PRIME B760-PLUS D4, ki se ponaša z robustno zasnovo napajanja, celovitimi hladilnimi rešitvami in inteligentnimi možnostmi nastavitev, uporabnikom in izdelovalcem računalnikov \"naredi sam\" ponuja vrsto optimizacij zmogljivosti prek intuitivnih funkcij programske in vdelane programske opreme.</p>"
+            "content": "<p><b>ASUS Prime B760-PLUS D4</b>, osnovna plošča <b>Intel B760 LGA 1700 ATX</b> s <b>PCIe 5.0</b>, tremi režami <b>PCIe 4.0 M.2</b>, <b>DDR4</b>, <b>Realtek 2</b>,<b>5Gb Ethernet</b>, <b>DisplayPort</b>, <b>VGA</b>, <b>HDMI</b>, <b>SATA 6 Gbps</b>, <b>USB 3.2 Gen 2x2 Type-C</b>, sprednji <b>USB 3.2 Gen 1 Type-C</b>, Thunderbolt <b>(USB4)</b>, <b>Aura Sync</b></p><p>Osnovne plošče <b>ASUS serije Prime</b> so strokovno zasnovane tako, da sprostijo celoten potencial procesorjev <b>Intel Core 13. generacije</b>. <b>PRIME B760-PLUS D4</b>, ki se ponaša z robustno zasnovo napajanja, celovitimi hladilnimi rešitvami in inteligentnimi možnostmi nastavitev, uporabnikom in izdelovalcem računalnikov \"naredi sam\" ponuja vrsto optimizacij zmogljivosti prek intuitivnih funkcij programske in vdelane programske opreme.</p>"
         },
         {
-            "ID": 10,
+            "ID": 12,
             "najboljProdajano": true,
             "productCategorryID": 3,
             "name": "ASUS TUF GAMING Z790-PLUS",
             "price": 409.99,
             "description": "ASUS TUF GAMING Z790-PLUS WIFI LGA1700 4xDIMM DDR5 ATX PCIe 5.0 4xSATA 4xM.2 1xHDMI 1xDP MB",
             "image": "img/ASUS-TUF-GAMING-Z790.jpeg",
-            "content": "<p>TUF GAMING Z790-PLUS WIFI D4 uporablja vse bistvene elemente najnovejših procesorjev Intel® in jih združuje z zmogljivostmi, ki so primerne za igre, ter preverjeno vzdržljivostjo. Ta osnovna plošča, zasnovana s komponentami vojaške kakovosti, nadgrajeno napajalno rešitvijo in celovitim hladilnim sistemom, presega pričakovanja z zanesljivo zmogljivostjo za maratonsko igranje iger. Osnovne plošče TUF GAMING opravijo tudi strogo testiranje vzdržljivosti, ki zagotavlja, da bodo kos razmeram, v katerih bi drugim lahko spodletelo. Estetsko ta model vključuje reliefno ploščico z imenom in oblikovne elemente satovja, ki odražajo zanesljivost in stabilnost, ki opredeljujeta serijo TUF GAMING.</p>"
+            "content": "<p><b>TUF GAMING Z790-PLUS WIFI D4</b> uporablja vse bistvene elemente najnovejših procesorjev <b>Intel®</b> in jih združuje z zmogljivostmi, ki so primerne za igre, ter preverjeno vzdržljivostjo. Ta osnovna plošča, zasnovana s komponentami vojaške kakovosti, nadgrajeno napajalno rešitvijo in celovitim hladilnim sistemom, presega pričakovanja z zanesljivo zmogljivostjo za maratonsko igranje iger. Osnovne plošče <b>TUF GAMING</b> opravijo tudi strogo testiranje vzdržljivosti, ki zagotavlja, da bodo kos razmeram, v katerih bi drugim lahko spodletelo. Estetsko ta model vključuje reliefno ploščico z imenom in oblikovne elemente satovja, ki odražajo zanesljivost in stabilnost, ki opredeljujeta serijo <b>TUF GAMING</b>.</p>"
+        },
+        {
+            "ID": 13,
+            "najboljProdajano": false,
+            "productCategorryID": 3,
+            "name": "ASUS ROG Maximus XIII Hero",
+            "price": 289.89,
+            "description": "Osnovna plošča ROG Maximus XIII Hero združuje napredne tehnologije, robustno zmogljivost za brezhibno dostavo električne energije in optimalno hlajenje.",
+            "image": "img/ASUS-ROG-Maximus-XIII-Hero.jpeg",
+            "content": "<p>Pripravljena za <b>10. in 11. generacijo Intel® Core™</b> procesorjev.</p><p>Robustne napajalne rešitve: visoko kakovostne in vzdržljive komponente ter <b>14+2</b> napajalne stopnje in <b>ProCool II</b> napajalni konektor.</p><p>Bliskovito hitro omrežno povezovanje z integriranim <b>WiFi 6E (802.11ax)</b> in <b>dual Intel® 2.5 Gb Ethernet z ASUS LANGuard</b>.</p><p>Pametno upravljanje z ekskluzivnimi <b>ASUS</b> orodji <b>AI Overclocking</b>, <b>AI Cooling</b>, <b>AI Networking</b> itd.</p><p>Bliskovito hitri vmesniki za brezhiben gaming: <b>PCIe 4.0</b> vodilo, <b>USB 3.2 Gen 2×2</b> vmesnik in <b>USB-C</b> s podporo <b>Thunderbolt™ 4 USB-C</b>.</p><p>Atraktivna <b>Aura Sync RGB LED</b> osvetlitev s številnimi možnostmi prilagajanja in sinhronizacijo z združljivimi napravami.</p>"
+        },
+        {
+            "ID": 14,
+            "najboljProdajano": false,
+            "productCategorryID": 3,
+            "name": "Gigabyte Z590 Aorus Ultra",
+            "price": 402.20,
+            "description": "Osnovna plošča Z590 Aorus Ultra je opremljena z nadgrajenimi napajalnimi rešitvami, vodilom PCIe 4.0 in napredno povezljivostjo za brezhibno gaming izkušnjo.",
+            "image": "img/Gigabyte-Z590-Aorus-Ultra.jpeg",
+            "content": "<p>Pripravljena za <b>11. in 10. generacijo Intel® Core™</b> procesorjev.</p><p>Napredna termična zasnova z <b>NanoCarbon Fins-Array II</b> in večjim <b>M.2</b> hladilnikom.</p><p>Bliskovito hitro omrežno povezovanje z brezžičnim modulom <b>Intel® Wi-Fi 6 AX200 in 2.5G LAN</b>.</p><p>Vrhunska napajalna zasnova vključuje najbolj kakovostne komponente za popoln izkoristek <b>11. generacije Intel® procesorjev</b>.</p><p>Podpora za <b>RGB Fusion 2.0</b> komponente s celovito možnostjo upravljanja.</p>"
+        },
+        {
+            "ID": 15,
+            "najboljProdajano": false,
+            "productCategorryID": 3,
+            "name": "Gigabyte B550 Aorus Master",
+            "price": 304.87,
+            "description": "Osnovna plošča Gigabyte B550 Aorus Master, s podnožjem AM4 za AMD Ryzen procesorje 3. generacije. Odlikuje jo izjemno hitra povezljivost, z M.2, PCIe 4.0, USB 3.2 Gen 2 in Wi-Fi.",
+            "image": "img/Gigabyte-B550-Aorus-Master.jpeg",
+            "content": "<p>Osnovna plošča <b>Gigabyte B550 Aorus Master formata ATX</b>, s podnožjem <b>AM4</b> je kompatibilna z <b>AMD procesorji Ryzen 3. generacije</b>. Ima <b>4</b> reže za pomnilnike <b>DDR4</b> s podporo za <b>XMP</b> in reže za <b>M.2 SSD diske</b>. Omogoča priklop komponent preko <b>SATA 6 Gb/s</b> vmesnika ter <b>PCI-e 4.0</b>. Podpira <b>USB 3.2 Gen 2</b>, ki prinaša mnogo višje hitrosti. Za povezavo v omrežje imate na voljo <b>Realtek LAN</b> mrežna kartica in <b>Wi-Fi</b>.</p><p><b>Fins-Array Heatsink</b>, <b>Direct Touch Heatpipe</b>, <b>Thermal Guards</b> in <b>Thermal Baseplate</b> predstavljajo celovito temperaturno zaščito komponent in lahko brez skrbi igrate tudi zahtevnejše igre.</p>"
+        },
+        {
+            "ID": 16,
+            "najboljProdajano": false,
+            "productCategorryID": 4,
+            "name": "Corsair pomnilnik Vengeance LPX 16GB",
+            "price": 55.30,
+            "description": "Pomnilnik Vengeance LPX s kapaciteto 16GB (2×8GB) bo poskrbel za hitro delovanje računalnika.",
+            "image": "img/Corsair-pomnilnik-Vengeance-LPX-16GB.jpeg",
+            "content": "<p><b>TEHNIČNE PODROBNOSTI:</b></p><p><b>Kapaciteta:</b> 16GB (2X8GB)</p><p><b>Hitrost:</b> DDR4 3200MHz</p><p><b>CAS Latenca:</b> 16–18–18–36</p><p><b>Napetost:</b> 1,35V</p><p><b>Barva:</b> črna</p>"
+        },
+        {
+            "ID": 17,
+            "najboljProdajano": false,
+            "productCategorryID": 4,
+            "name": "G.Skill pomnilnik (RAM) Ripjaws V 16GB",
+            "price": 48.70,
+            "description": "Ram pomnilnik G.Skill Ripjaws 16GB (2×8GB) vrste DDR4 je primerne za namizne računalnike in podpira Intel Extreme Memory Profiles (Intel XMP) 2.0.",
+            "image": "img/G.Skill-pomnilnik-(RAM)-Ripjaws-V-16GB.jpeg",
+            "content": "<p><b>TEHNIČNE PODROBNOSTI:</b></p><p><b>Namembnost:</b> Namizni PC – DIMM</p><p><b>Tip:</b> DDR4</p><p><b>Kapaciteta:</b> 16GB</p><p><b>Kit:</b> Dva modula (8 GB)</p><p><b>Takt delovanja:</b> 3200MHz</p><p><b>Latence:</b> 16–18–18–38</p><p><b>Napajalna napetost:</b> 1,35 V</p><p><b>Dodatno:</b> Intel XMP 2.0,</p>"
+        },
+        {
+            "ID": 18,
+            "najboljProdajano": false,
+            "productCategorryID": 4,
+            "name": "Kingston HyperX Fury RAM pomnilnik, 8GB",
+            "price": 40.39,
+            "description": "Izjemen DDR4 pomnilnik HyperX Fury HX426C16FB3/8 kapacitete 8 GB deluje s hitro frekvenco 2666 MHz in ima odlično latenco CL16 pri 1,2 V! Podpira XMP 2.0 profile. Idealen je za gaming računalnike in je odlična izbira za tekoče delovanje videoiger ter drugih najzahtevnejših računalniških operacij.",
+            "image": "img/Kingston-HyperX-Fury-RAM-pomnilnik-8GB.jpeg",
+            "content": "<p>Vrhunski <b>DDR4</b> pomnilnik <b>Kingston HyperX FURY</b> s kapaciteto <b>8 GB</b> za gamerje ter druge najzahtevnejše uporabnike namiznih računalnikov. Podpira Intel in AMD platforme.<br>Pasivni <b>hladilnik</b> bo poskrbel za optimalno temperaturo pomnilnika za stabilnost in zanesljivost pri igranju videoiger.<br>Deluje s frekvenco hitrosti kar <b>2666 MHz</b> in odlično nizko latenco <b>CL16</b> (CL16–18–18) pri napetosti <b>1,2V</b>.<br>Podpira tudi <b>XMP 2.0</b>, kar vam omogoča uporabo že nastavljenih profilov overclocking strokovnjakov. Idealen je za najzahtevnejše računalniške operacije, kot so videoigre.</p><p><b>TEHNIČNE PODROBNOSTI:</b></p><p><b>Proizvajalec:</b> Kingston</p><p><b>Model:</b> HyperX FURY HX426C16FB3/8</p><p><b>Vrsta:</b> pomnilnika DDR 4</p><p><b>Kapaciteta:</b> pomnilnika 8 GB</p><p><b>Frekvenca:</b> delovanja 2666 Mhz</p><p><b>Latenca:</b> CL16 (CL16–18–18)</p><p><b>Napajalna napetost:</b> 1.2 V</p><p><b>Število modulov:</b> 1 modul</p><p><b>Tip pomnilnika:</b> DIMM</p></p>"
+        },
+        {
+            "ID": 19,
+            "najboljProdajano": false,
+            "productCategorryID": 4,
+            "name": "Crucial Ballistix 16GB Kit ",
+            "price": 74.90,
+            "description": "Pomnilniki Ballistix postavljajo nove standarde zmogljivosti. Tako so med drugimi odlična izbira za gaming računalniške sisteme, saj jih odlikuje podpora za tehnologijo XMP 2.0, aluminijast hladilnik pa bo poskrbel za učinkovito pasivno hlajenje ob najbolj intenzivni uporabi.",
+            "image": "img/Crucial-Ballistix-16GB-Kit.jpeg",
+            "content": "<p><b>TEHNIČNE PODROBNOSTI:</b></p><p><b>Tip pomnilnika:</b> DDR4</p<p><b>Kapaciteta:</b> 16 GB Kit (2× 8 GB)</p><p><b>Št. modulov:</b> 2</p><p><b>Format:</b> DIMM</p><p><b>Hitrost:</b> PC-25600 / 3200 MHz</p><p><b>Latence:</b> 16–18–18</p><p><b>Napetost:</b> 1,35 V</p><p><b>Ostalo:</b> Unbuffered; NON-ECC; 1024Meg x 64; XMP 2.0; podpora za AMD in Intel sisteme</p>"
+        },
+        {
+            "ID": 20,
+            "najboljProdajano": false,
+            "productCategorryID": 4,
+            "name": "Patriot Viper Steel",
+            "price": 94.20,
+            "description": "Pomnilniški moduli Patriot Memory Viper Steel so zasnovani z mislijo na najboljšo zmogljivost. Serija Viper Steel, razvita za najnovejše platforme Intel in AMD, zagotavlja najboljšo zmogljivost in stabilnost pri najzahtevnejših …",
+            "image": "img/Patriot-Viper-Steel-16GB.jpeg",
+            "content": "<p>Pomnilniški moduli Patriot Memory Viper Steel so zasnovani z mislijo na najboljšo zmogljivost. Serija Viper Steel, razvita za najnovejše platforme Intel in AMD, zagotavlja najboljšo zmogljivost in stabilnost v najzahtevnejših računalniških okoljih.</p><p><b>Model:</b>Patriot Viper Steel Series DDR4 32GB(1 × 32GB) 3600MHz <p><b>Trip pomnilnika:</b>DDR4</p> <p><b>Zmogljivost pomnilnika:</b>32GB</p><p><b>Frekvenca pomnilnika: </b>3600 MHz</p> <p><b>Časovni interval: </b>CL18</p> <p><b>Korigiranje napak (ECC): </b>Ne</p><p><b>Število modulov v paketu: </b>1</p>"
+        },
+        {
+            "ID": 21,
+            "najboljProdajano": false,
+            "productCategorryID": 5,
+            "name": "Corsair napajalnik RM850x",
+            "price": 166,
+            "description": "Modularni napajalnik CORSAIR RM850× je sestavljen iz najkakovostnejših delov in nudi 850 W moči za najbolj zahtevne računalniške komponente. Kakovost mu izkazuje certifikat 80Plus Gold, ki označuje visoko učinkovitost z nizko energijsko porabo. Modularna oblika zmanjša število nepotrebnih kablov. Napajalnik je odlična izbira za gaming sisteme z dvema močnejšima grafičnima karticama ali celo tremi.",
+            "image": "img/Corsair-napajalnik-RM850x.jpeg",
+            "content": "<p>Kakovost napajalnika <b>CORSAIR RM850×</b> izkazuje certifikat <b>80Plus Gold</b>, ki je namenjen komponentam z visoko stopnjo učinkovitosti in nizko stopnjo energijske porabe. Modularna oblika z 12V linijo kar precej izboljša upravljanje s kabli. Napajalnik hladi tih, 135-milimetrski ventilator, ki se prilagaja obremenitvi in se vključi šele ob obremenitvi 300 W.</p><p><b>Glavne funkcije in lastnosti:</b></p><p>Modularni priklop kablov – uporabi se le tiste, ki se jih potrebuje</p><p>Močna 12V linija za združljivost z vsemi grafičnimi karticami</p><p>Odlična izbira za igričarske sisteme z dvema zmogljivejšima grafičnima karticama (ali tremi)</p><p>105° kondenzatorji</p><p>135 mm ventilator, ki se prilagodi temperaturi</p><p>Zaščita proti prenapetosti, prenizki napetosti, kratkem stiku, preobremenitvi, previsoki temperaturi</p>"
+        },
+        {
+            "ID": 22,
+            "najboljProdajano": false,
+            "productCategorryID": 5,
+            "name": "EVGA SuperNOVA 850 G3",
+            "price": 167.12,
+            "description": "EVGA SuperNOVA 850 G3 napajalnik ima 85% učinkovitost ali več pri običajnih obremenitvah. Modularen napajalnik z črnimi zaščitenimi kabli za boljšo estetiko, poleg tega pa ima napajalnik vgrajen 130 mm ventilator za hlajenje.",
+            "image": "img/EVGA-SuperNOVA-850-G3.jpeg",
+            "content": "<p>Napajalnik ima vgrajene kakovostne električne komponente, ki zagotavljajo brezhibno delovanje za daljšo življenjsko dobo učinkovitega napajanja. Vgrajeno ima inteligentno kontrolo zaznavanja obremenitve, ki samodejno nastavi hitrost ventilatorja ter s tem poskrbi za tišje delovanje, nižja obratovalna temperatura ter manjša poraba energije. Povrhu vsega napajalnik z vgrajenimi varnostnimi mehanizmi zmanjšuje možnost okvare komponent v primeru defekta. Dinamični ventilator omogoča tiho delovanje tudi pri največjih obremenitvah. Način EVGA ECO omogoča, da je pri nizkih do srednjih obremenitvah napajanje popolnoma tiho. Poleg tega pa lahko uporabljate samo kable, ki jih potrebujete in tako zmanjšate nered ter izboljšate pretok zraka v ohišju.</p>"
+        },
+        {
+            "ID": 23,
+            "najboljProdajano": false,
+            "productCategorryID": 5,
+            "name": "Be quiet! Straight Power 11",
+            "price": 221.30,
+            "description": "Brezkompromisen napajalnik Be Quiet! Straight Power 11 s 1000 W je izjemno tih in učinkovit. Odlikujeta ga certifikat 80 PLUS Gold in kakovosten ventilator Silent Wings 3.",
+            "image": "img/Be-quiet!-Straight-Power-11.jpeg",
+            "content": "<p>Napajalnik <b>Straight Power 11</b> s <b>1000 W</b> neprekinjene moči je certificiran z <b>80 PLUS Gold</b> in dosega do 93 % učinkovitosti. To zagotavlja veliko korist za vaš sistem, vključno z manjšo porabo električne energije ter splošnim hladnejšim in tišjim delovanjem. </p><p>Notranjost napajalnika je narejena brez žic, kar pomeni <b>boljši pretok zraka, manj segrevanja</b> in <b>manj motenj signala</b>. Komponente imajo zato še daljšo življenjsko dobo.</p><p>V notranjosti je skoraj neslišen ventilator <b>Silent Wings 3</b>, ki zagotavlja odlično hlajenje. Ventilator je premera 135 mm in v obliki lijaka, ki omogoča večji dotok zraka. </p>"
+        },
+        {
+            "ID": 24,
+            "najboljProdajano": false,
+            "productCategorryID": 5,
+            "name": "Thermaltake Toughpower Gf1",
+            "price": 244.30,
+            "description": "Če ste navdušenec nad informatiko in elektroniko , želite biti na tekočem z najnovejšo tehnologijo in ne želite zamuditi nobene podrobnosti, kupite Napajalnik THERMALTAKE Toughpower Gf1 650 W po najboljši ceni.",
+            "image": "img/Thermaltake-Toughpower-Gf1.jpeg",
+            "content": "<p>Če ste navdušenec nad <b>informatiko in elektroniko</b>, želite biti na tekočem z najnovejšo tehnologijo in ne želite zamuditi nobene podrobnosti, kupite <b>Napajalnik THERMALTAKE Toughpower Gf1 650 Wpo</b> najboljši ceni.</p><p><b>Moč:</b> 650 W<br><b>Certifikat:</b> 80 Plus Gold<br><b>Teža:</b> 3 Kg<br><b>Form factor:</b> ATX</p>"
+        },
+        {
+            "ID": 25,
+            "najboljProdajano": false,
+            "productCategorryID": 5,
+            "name": "ASUS ROG Strix",
+            "price": 144.20,
+            "description": "Modularni napajalnik ROG Strix združuje visoko energijsko učinkovitost 80 PLUS Gold in zanesljivo kakovost za gaming navdušence. Opremljen je z naprednimi hladilnimi komponentami, ki jih odlikuje izjemno tiho delovanje.",
+            "image": "img/ASUS-ROG-Strix.jpeg",
+            "content": "<p>Izjemen modularni napajalnik <b>ROG Strix</b> se ponaša z visoko kakovostnimi komponentami, ki zagotavljajo zanesljivo delovanje z <b>garancijo kar 10 let</b>. Odlikuje pa ga še visoka energijska učinkovitost <b>80 PLUS Gold</b>.</p><p>Napredno hlajenje s hladilniki <b>ROG</b> in <b>Axial-tech</b> ventilatorjem bo zagotovilo visoko učinkovito hlajenje, tehnologija <b>0dB</b> pa bo poskrbela za <b>izjemno tiho hlajenje</b>, saj bo ventilator pričel delovati le ob intenzivni porabi napajalnika.</p>"
+        },
+        {
+            "ID": 26,
+            "najboljProdajano": false,
+            "productCategorryID": 6,
+            "name": "Fractal Design ohišje Fractal Midi",
+            "price": 109.53,
+            "description": "Ohišje Fractal Design nudi neprimerljivo zmogljivost hlajenja in značilen videz. ",
+            "image": "img/Fractal-Design-ohiçje-Fractal-Midi.jpeg",
+            "content": "<p>Ohišje <b>Fractal Design</b> nudi neprimerljivo zmogljivost hlajenja in značilen videz.</p><p>Kompaktna in prostorna odprta postavitev Midi ATX ustvarja <b>neomejeno pot pretoka zraka></b> od sprednjih vhodov neposredno preko ključnih komponent do izhodnih poti, kar zagotavlja odlično ventilacijo in posledično hlajenje. Nameščena sta <b>2 Dynamic X2 GP-12 ventilatorja</b>, ohišje pa nudi še <b>možnost vgradnje vodnega hlajenja</b>..</p><p>Ohišje je opremljeno z <b>gumijastimi nastavki</b>, ki blažijo vibracije za nemoteno, tiho in zanesljivo delovanje. Na sprednji strani, zgoraj in spodaj se nahajajo <b>protiprašni filtri</b>, ki so enostavno za čiščenje.</p>"
+        },
+        {
+            "ID": 27,
+            "najboljProdajano": false,
+            "productCategorryID": 6,
+            "name": "NZXT H510 ohišje",
+            "price": 95.82,
+            "description": "NZXT H510 računalniško ohišje je s svojim edinstvenim videzom idealno za gamerske navdušence. Sodi v kategorijo Midi ATX tower in je primerno za namestitev Mini-ITX, Micro-ATX, ATX matičnih plošč.",
+            "image": "img/NZXT-H510-ohiçje.jpeg",
+            "content": "<p>Midi ATX ohišje <b>NZXT H510</b> z mnogimi priključki, med katerimi je tudi <b>USB-C</b> z <b>USB 3.1 Gen2</b> vmesnikom, na katerega lahko enostavno povežete pametne telefone, hiter zunanji pomnilnik ali najnovejše zunanje naprave.</p><p>Ohišje za zasnovano za enostavno napeljavo kablov <b>z vnaprej nameščenimi kanali in trakovi</b>, ki ohišju poda popolnoma urejen videz.</p><p>NZXT H510 ohišje ima <b>že nameščena 2 ventilatorja Aer F120</b>.</p><p>Ohišje vam nudi čist, sodoben dizajn, <b>patentiran sistem za upravljanje kablov, odstranljive pritrdilne nosilce</b> za ventilator ali radiator ter enostavne <b>pladnje za diske</b>. Poleg tega ima še <b>stransko okno iz kaljenega stekla</b> za vpogled v notranje komponente računalnika.</p>"
+        },
+        {
+            "ID": 28,
+            "najboljProdajano": false,
+            "productCategorryID": 6,
+            "name": "Antec NX410 ohišje",
+            "price": 79.30,
+            "description": "NX410 je igralno ohišje, ki združuje številne funkcije, ki jih potrebujete pri svojem računalniškem sistemu.",
+            "image": "img/Antec-NX410-ohiçje.jpeg",
+            "content": "<p>NX410 je <b>mid-tower igralno ohišje</b>, ki združuje številne funkcije, ki jih potrebujete: <b>povezljivost USB 3.0</b>, veliko ležišč za pogone za shranjevanje, prostor za razširitev in vključuje <b>en ventilator ARGB LED</b> spredaj in zadaj. S podporo za do <b>360 mm</b> velik radiator z vodnim hlajenjem spredaj in <b>280 mm na vrhu</b> je NX410 enostavno zgraditi in enostavno ohlajati.</p><p>Samo en pritiskje dovolj, da po želji <b>spremenite svetlobni učinek</b> ARGB na sprednji plošči</p>"
+        },
+        {
+            "ID": 29,
+            "najboljProdajano": false,
+            "productCategorryID": 6,
+            "name": "Antec Dark Phantom ohišje",
+            "price": 68.40,
+            "description": "DP301M je mikro-ATX različica druge Antec nove igralne serije – Dark Phantom.",
+            "image": "img/Antec-Dark-Phantom-ohiçje.jpeg",
+            "content": "<p>Ohišje še vedno ohranja <b>odlično kakovost</b> in možnost, da je opremljen z visoko <b>zmogljivimi komponentami</b>. Morda je majhen in lahek, vendar nikoli ne zanemarimo vsake podrobnosti ohišja. Zasnova sprednje plošče <b>ARGB boomerang</b> predstavlja okretnost in <b>hitrost na področju iger</b>. DP301M je <b>odlična izbira za igralce</b>, ki vstopijo v svet iger. <b>Snemljiva sprednja plošča</b> za enostavno odstranjevanje prahu je le ena od stvari, ki zagotavljajo prilaganje uporabniku.</p>"
+        },
+        {
+            "ID": 30,
+            "najboljProdajano": false,
+            "productCategorryID": 6,
+            "name": "Inter-tech Chevron A-3401 igralno ohišje",
+            "price": 68.59,
+            "description": "Inter-Tech A-3401 Chevron ponuja idealno podlago za vrhunski igralni sistem. Igralno ohišje nudi dodaten prostor za ventilatorje ob strani in na vrhu.",
+            "image": "img/Inter-tech-Chevron-A-3401-igralno-ohiçje.jpeg",
+            "content": "<p>Inter-Tech <b>A-3401 Chevron</b> ponuja idealno podlago za vrhunski igralni sistem. Trije integrirani <b>120-milimetrski ventilatorji RGB</b> se nahajajo za abstraktno sprednjo ploščo iz <b>akrilnega stekla</b>. Ventilatorje je mogoče upravljati prek <b>vgrajenega gumba</b> na sprednji strani ali prek plošče <b>5V RGB</b>. Stranska plošča iz akrilnega stekla ponuja vpogled v vgrajeno strojno opremo in izboljša celoten sistem. Na integrirano ploščo RGB/ventilator je mogoče priključiti skupaj <b>štiri naprave RGB s 5V 3pin RGB glavami in štirimi 3pin ventilatorji</b>, kar ponuja različne možnosti konfiguracije in oblikovanja.</p><p>Na vrhu in na hrbtni strani se nahaja za dodatne ventilatorje. <b>Dva 120 mm ventilatorja</b> sta lahko nameščena tudi <b>nad predorom za napajanje</b>, kar prispeva k odpadni toploti in hlajenju. Poleg prostora za namestitev napajalnika se nahaja <b>odstranljiva kletka za trdi disk</b>, ki ponuja prostor za <b>6,4 cm</b> (2,5 „) <b>SSD</b> in <b>8,9 cm</b> (3,5“) <b>HDD</b>. Filtri za prah na zgornjem in spodnjem delu ohišja je enostavno odstraniti in očistiti, hkrati pa ohranjajo notranjost brez prahu.</p>"
         }
     ],
     "productCategorryIDs":
