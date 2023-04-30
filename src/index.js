@@ -274,21 +274,7 @@ function totalPriceZDostavo(cenaIzdelki) {
     else return cenaIzdelki;
 }
 
-// kosarica v sessionStorage
-// [
-//     {
-//         id: 4
-//         kolicina: 2
-//     },
-//     {
-//         id:2
-//         kolicina: 5
-//     }
 pobarvaj();
-// ]
-
-
-
 function pobarvaj() {
     const buttons = document.querySelectorAll('.vKosarico');
     
@@ -449,20 +435,10 @@ async function isci() {
         zadetkiHTML += "<p>Žal nismo našli nobenega članka z vašim iskalnim nizem.</p>";
     }
     zadetkiHTML += '</div>';
-    // console.log(zadetkiHTML);
     iskanje.innerHTML = zadetkiHTML;
     pobarvaj();
 }
 
-
-
-// function iskanjeForm() {
-//     const text = document.getElementById("iskanjeText").value;
-//     // const encodedText = encodeURIComponent(text);
-//     if(text !== "") {
-//         window.location.href = `iskanje.html?niz=${text}`;
-//     }
-// }
 const formIskanje = document.getElementById("formIskanje");
 formIskanje.addEventListener("submit", function(e) {
     e.preventDefault();
