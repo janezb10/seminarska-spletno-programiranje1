@@ -32,6 +32,35 @@ if(najboljProdajani) {
     }());
 }
 
+const zadnjiClanki2 = document.getElementById("zadnjiClanki2");
+if(zadnjiClanki2) {
+    (async function getZadnjiClanki() {
+        const response = await fetch(`/podatki/data.json`);
+        const jsonData = await response.json();
+        const articles = jsonData.articles;
+        const zadnjiClanki2HTML = articles
+            .map(e => {
+                if(e.naNaslovniStrani) {
+                    return `
+                    <div class="col-12 col-md-6 col-lg-4 col-xl-3">
+                        <div class="card">
+                            <img src="${e.image}" class="card-img-top" alt="...">
+                            <h5 class="card-titl">${e.title}</h5>
+                            <p class="card-tex">${e.contentShort}</p>
+                            <a href="article.html?id=${e.articleID}" class="btn cardPoglej">Preberi članek</a>
+                        </div>
+                    </div>
+                `;
+                }
+                else {
+                    return "";
+                }
+            })
+            .join("");
+            zadnjiClanki2.innerHTML = zadnjiClanki2HTML;
+    }());
+}
+
 const seznamIzdelkov = document.getElementById("seznamIzdelkov");
 if(seznamIzdelkov) {
     prikaziIzdelke();
@@ -48,7 +77,6 @@ async function prikaziIzdelke(kategorija = 0) {
                 return `<div class="col-12 col-md-6 col-lg-4 col-xl-3">
                             <div class="card">
                                 <img src="${e.image}" class="card-img-top" alt="...">
-                                
                                     <h5 class="card-titl">${e.name}</h5>
                                     <p class="card-tex">${e.description}</p>
                                     <h6 class="cardCena">Cena: ${e.price} eur</h6>
@@ -125,7 +153,6 @@ async function prikaziIzdelek() {
             <div class="izdelekKosarica d-flex justify-content-end">
                 <button type="button" class="btn btn-primary vKosarico" onclick="dodajVKosarico(${iskaniIzdelek.ID})">v Košarico</button>
             </div>
-
         `;
     }
     izdelek.innerHTML = izdelekHTML;

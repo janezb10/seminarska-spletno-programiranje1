@@ -102,6 +102,58 @@ body {
   margin: 0.5rem;
   grid-area: 9/4/10/6;
 }
+#zadnjiClanki .zadnjiClankiNaslov {
+  margin: 20px 0;
+  height: 90px;
+  display: flex;
+  align-items: center;
+}
+#zadnjiClanki .zadnjiClankiNaslov h2, #zadnjiClanki .zadnjiClankiNaslov .h2 {
+  color: #04286E;
+}
+#zadnjiClanki #zadnjiClanki2 .card {
+  margin: auto;
+  border: 1px solid #04286E;
+  width: 18rem;
+  height: 30rem;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr) 0.3fr repeat(2, 1fr);
+  grid-template-rows: repeat(3, 1fr) 0.3fr repeat(3, 1fr) 0.7fr 1fr;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  margin-bottom: 2rem;
+  background-color: rgba(255, 255, 255, 0.4);
+}
+#zadnjiClanki #zadnjiClanki2 .card img {
+  grid-area: 1/1/5/6;
+  padding: 0.5rem;
+  -o-object-fit: contain;
+     object-fit: contain;
+  max-height: 100%;
+  max-width: 100%;
+}
+#zadnjiClanki #zadnjiClanki2 .card .card-titl {
+  padding: 0.5rem;
+  grid-area: 5/1/6/6;
+  font-weight: 500;
+}
+#zadnjiClanki #zadnjiClanki2 .card .card-tex {
+  padding: 0.5rem;
+  grid-area: 6/1/9/6;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+#zadnjiClanki #zadnjiClanki2 .card .cardPoglej {
+  margin: 0.5rem;
+  grid-area: 9/1/10/6;
+  background-color: #FFEE95;
+  font-weight: 600;
+  color: #04286E;
+}
+#zadnjiClanki #zadnjiClanki2 .card .cardPoglej:hover {
+  background-color: #FDDF46;
+}
+
 #oTrgovini .okvir {
   margin: 1.1rem 0;
   background-color: rgba(255, 255, 255, 0.4);
