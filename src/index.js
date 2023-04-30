@@ -284,6 +284,7 @@ function totalPriceZDostavo(cenaIzdelki) {
 //         id:2
 //         kolicina: 5
 //     }
+pobarvaj();
 // ]
 
 
@@ -363,4 +364,90 @@ async function showArticle() {
         `;
     }
     article.innerHTML = articleHTML;
+}
+
+const iskanje = document.getElementById("iskanje");
+if(iskanje) {
+    isci();
+}
+async function isci() {
+    const response = await fetch(`/podatki/data.json`);
+    const jsonData = await response.json();
+    articles = jsonData.articles;
+    products = jsonData.products;
+
+    const urlParams = new URLSearchParams(window.location.search);
+    const niz = urlParams.get('niz');
+    const zadetkiProducts = [];
+    for(i=0; i<products.length; i++) {
+        for(key in products[i]) {
+            if(key == "name" || key == "description" || key == "content") {
+                let regex = new RegExp(niz, "i");
+                if(products[i][key].search(regex) != -1) {
+                    if(!zadetkiProducts.includes(products[i])) {
+                        zadetkiProducts.push(products[i]);
+                    }
+                }
+            }
+        }
+    }
+    const zadetkiArticles = [];
+    for(i=0; i<articles.length; i++) {
+        for(key in articles[i]) {
+            if(key == "title" || key == "contentShort" || key == "content") {
+                let regex = new RegExp(niz, "i");
+                if(articles[i][key].search(regex) != -1) {
+                    if(!zadetkiArticles.includes(articles[i])) {
+                        zadetkiArticles.push(articles[i]);
+                    }
+                }
+            }
+        }
+    }
+    console.log(zadetkiProducts);
+
+    let zadetkiHTML = '<h2>Zadetki iskanja - Izdelki: </h2> <div class="row zadetkiProducts">';
+    zadetkiHTML += zadetkiProducts
+        .map(e => {
+            return `<div class="col-12 col-md-6 col-lg-4 col-xl-3">
+                        <div class="card">
+                            <img src="${e.image}" class="card-img-top" alt="...">
+                            
+                                <h5 class="card-titl">${e.name}</h5>
+                                <p class="card-tex">${e.description}</p>
+                                <h6 class="cardCena">Cena: ${e.price} eur</h6>
+                                <a href="izdelek.html?id=${e.ID}" class="btn btn-secondary cardPoglej">Poglej si</a>
+                                <button class="btn cardVKosarico vKosarico btn-primary" onclick="dodajVKosarico(${e.ID})">v Košarico</button>
+                        </div>
+                    </div>`;
+        })
+        .join("");
+    zadetkiHTML += '</div> <h2>Zadetki iskanja - Blog</h2><div class="row zadetkiArticles">';
+    zadetkiHTML += zadetkiArticles
+        .map(e => {
+            return `
+            <div class="col-12 col-md-6 col-lg-4 col-xl-3">
+                <div class="card">
+                    <img src="${e.image}" class="card-img-top" alt="...">
+                    <h5 class="card-titl">${e.title}</h5>
+                    <p class="card-tex">${e.contentShort}</p>
+                    <a href="article.html?id=${e.articleID}" class="btn cardPoglej">Preberi članek</a>
+                </div>
+            </div>
+        `;})
+        .join("");
+    zadetkiHTML += '</div>';
+    // console.log(zadetkiHTML);
+    iskanje.innerHTML = zadetkiHTML;
+    pobarvaj();
+}
+
+
+
+function iskanjeForm() {
+    const text = document.getElementById("iskanjeText").value;
+    // const encodedText = encodeURIComponent(text);
+    if(text !== "") {
+        window.location.href = `iskanje.html?niz=${text}`;
+    }
 }
