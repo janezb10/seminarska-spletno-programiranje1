@@ -154,7 +154,7 @@
         },
         {
             "ID": 15,
-            "najboljProdajano": false,
+            "najboljProdajano": true,
             "productCategorryID": 3,
             "name": "Gigabyte B550 Aorus Master",
             "price": 304.87,
@@ -164,7 +164,7 @@
         },
         {
             "ID": 16,
-            "najboljProdajano": false,
+            "najboljProdajano": true,
             "productCategorryID": 4,
             "name": "Corsair pomnilnik Vengeance LPX 16GB",
             "price": 55.30,
@@ -204,7 +204,7 @@
         },
         {
             "ID": 20,
-            "najboljProdajano": false,
+            "najboljProdajano": true,
             "productCategorryID": 4,
             "name": "Patriot Viper Steel",
             "price": 94.20,
@@ -304,7 +304,7 @@
         },
         {
             "ID": 30,
-            "najboljProdajano": false,
+            "najboljProdajano": true,
             "productCategorryID": 6,
             "name": "Inter-tech Chevron A-3401 igralno ohišje",
             "price": 68.59,

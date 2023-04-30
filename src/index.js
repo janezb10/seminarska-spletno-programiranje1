@@ -407,7 +407,7 @@ async function isci() {
     console.log(zadetkiProducts);
 
     let zadetkiHTML = '<h2>Zadetki iskanja - Izdelki: </h2> <div class="row zadetkiProducts">';
-    zadetkiHTML += zadetkiProducts
+    let umes = zadetkiProducts
         .map(e => {
             return `<div class="col-12 col-md-6 col-lg-4 col-xl-3">
                         <div class="card">
@@ -422,8 +422,14 @@ async function isci() {
                     </div>`;
         })
         .join("");
-    zadetkiHTML += '</div> <h2>Zadetki iskanja - Blog</h2><div class="row zadetkiArticles">';
-    zadetkiHTML += zadetkiArticles
+    if(umes != "") {
+        zadetkiHTML += umes;
+    }
+    else {
+        zadetkiHTML += "<p>Žal nismo našli nobenega izdelka z vašim iskalnim nizem.</p>";
+    }
+    zadetkiHTML += '</div> <h2>Zadetki iskanja - Blog:</h2><div class="row zadetkiArticles">';
+    let umes2 = zadetkiArticles
         .map(e => {
             return `
             <div class="col-12 col-md-6 col-lg-4 col-xl-3">
@@ -436,6 +442,12 @@ async function isci() {
             </div>
         `;})
         .join("");
+    if(umes2 !== "") {
+        zadetkiHTML += umes2;
+    }
+    else {
+        zadetkiHTML += "<p>Žal nismo našli nobenega članka z vašim iskalnim nizem.</p>";
+    }
     zadetkiHTML += '</div>';
     // console.log(zadetkiHTML);
     iskanje.innerHTML = zadetkiHTML;
@@ -444,10 +456,18 @@ async function isci() {
 
 
 
-function iskanjeForm() {
+// function iskanjeForm() {
+//     const text = document.getElementById("iskanjeText").value;
+//     // const encodedText = encodeURIComponent(text);
+//     if(text !== "") {
+//         window.location.href = `iskanje.html?niz=${text}`;
+//     }
+// }
+const formIskanje = document.getElementById("formIskanje");
+formIskanje.addEventListener("submit", function(e) {
+    e.preventDefault();
     const text = document.getElementById("iskanjeText").value;
-    // const encodedText = encodeURIComponent(text);
     if(text !== "") {
         window.location.href = `iskanje.html?niz=${text}`;
     }
-}
+});
