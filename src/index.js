@@ -323,18 +323,19 @@ async function prikaziBlog() {
     const jsonData = await response.json();
     const articles = jsonData.articles;
 
-    const blogHTML = articles.map(e => {
-        return `
-            <div class="col-12 col-md-6 col-lg-4 col-xl-3">
-                <div class="card">
-                    <img src="${e.image}" class="card-img-top" alt="...">
-                    <h5 class="card-titl">${e.title}</h5>
-                    <p class="card-tex">${e.contentShort}</p>
-                    <a href="article.html?id=${e.articleID}" class="btn cardPoglej">Preberi članek</a>
+    const blogHTML = articles
+        .map(e => {
+            return `
+                <div class="col-12 col-md-6 col-lg-4 col-xl-3">
+                    <div class="card">
+                        <img src="${e.image}" class="card-img-top" alt="...">
+                        <h5 class="card-titl">${e.title}</h5>
+                        <p class="card-tex">${e.contentShort}</p>
+                        <a href="article.html?id=${e.articleID}" class="btn cardPoglej">Preberi članek</a>
+                    </div>
                 </div>
-            </div>
-        `;
-    });
+            `;})
+        .join("");
     blog.innerHTML = blogHTML;
     // console.log(articles);
 }
@@ -373,7 +374,6 @@ async function showArticle() {
             <div class="nazajNaBlog d-flex justify-content-end">
                 <p>Preberi še več zanimivih objav <a href="/blog.html">tukaj!</a></p>
             </div>
-
         `;
     }
     article.innerHTML = articleHTML;
