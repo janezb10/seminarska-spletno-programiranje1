@@ -484,6 +484,7 @@ body {
 #kontakt .k-form form .form-group input, #kontakt .k-form form .form-group textarea {
   background-color: rgba(253, 223, 70, 0.4);
   font-size: 1.2rem;
+  border: 1px solid #FFEE95;
 }
 #kontakt .k-form form .form-group input::-moz-placeholder, #kontakt .k-form form .form-group textarea::-moz-placeholder {
   color: #898989;
