@@ -218,10 +218,9 @@ async function prikaziIzdelkeVKosarici() {
                     <div class="col-md-2 col-lg-2 col-xl-2">
                       <img
                         src="${produkt.image}"
-                        class="img-fluid rounded-3" alt="Cotton T-shirt">
+                        class="img-fluid rounded-3" alt="...">
                     </div>
                     <div class="col-md-3 col-lg-3 col-xl-3">
-                      <h6 class="text-muted">kategorija</h6>
                       <h6 class="text-black mb-0">${produkt.name}</h6>
                     </div>
                     <div class="col-md-3 col-lg-3 col-xl-2 d-flex">

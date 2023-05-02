@@ -1,5 +1,0 @@
--v košarici pri izdelku piše "kategorija" -- kaj z tem?!?
--Izpis vseh izdelkov, na vstopni strani naj bo največ 12 izdelkov !!
--PHP vsaj API klic do JSONa
--Slider (carousel) !!!!
--klik na sliko je povezava na izdelkih in blogu
