@@ -536,6 +536,5 @@ function kontaktPreveri() {
         fAlert = document.getElementById("f-alert");
         fAlert.innerHTML = alert;
     }
-
     return test;
 }

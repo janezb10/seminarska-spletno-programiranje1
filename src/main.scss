@@ -549,7 +549,30 @@ body {
     h2 {
         background-color: rgba(253, 223, 70, 0.5);
         padding: 0.5rem 1rem;
+        margin-bottom: 1rem;
     }
+    .moznostKontakta {
+        background-color: rgba(360,360,360,0.4);
+        padding: 1.3rem;
+        font-size: 1.1rem;
+        margin-bottom: 1rem;
+        
+        p {
+            margin: 0;
+        }
+    }
+
+    .naslov {
+        background-color: rgba(360,360,360,0.4);
+        padding: 1.3rem;
+        font-size: 1.1rem;
+        margin-bottom: 1rem;
+        
+        p {
+            margin: 0;
+        }
+    }
+    
     .k-form {
         background-color: rgba(360,360,360,0.4);
         padding: 1.3rem;
@@ -585,16 +608,17 @@ body {
                     }
                 }
             }
-            // .f-alert {
-            //     .alert-warning {
-            //         background-color: red;
-            //         border: 2px solid red;
-
-            //     }
-            // }
 
             button {
+                padding: 0.5rem 2rem;
                 margin: 1.5rem 0;
+                color: $secondary;
+                font-weight: 500;
+
+                &:hover {
+                    background-color: $secondary;
+                    color: $primary;
+                }
             }
         }
     }
