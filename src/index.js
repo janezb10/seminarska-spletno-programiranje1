@@ -423,13 +423,12 @@ async function isci() {
         .map(e => {
             return `<div class="col-12 col-md-6 col-lg-4 col-xl-3">
                         <div class="card">
-                            <img src="${e.image}" class="card-img-top" alt="...">
-                            
-                                <h5 class="card-titl">${e.name}</h5>
-                                <p class="card-tex">${e.description}</p>
-                                <h6 class="cardCena">Cena: ${e.price} eur</h6>
-                                <a href="izdelek.html?id=${e.ID}" class="btn btn-secondary cardPoglej">Poglej si</a>
-                                <button class="btn cardVKosarico vKosarico btn-primary" onclick="dodajVKosarico(${e.ID})">v Košarico</button>
+                            <a href="izdelek.html?id=${e.ID}" class="aimg"><img src="${e.image}" class="card-img-top" alt="..."></a>
+                            <h5 class="card-titl">${e.name}</h5>
+                            <p class="card-tex">${e.description}</p>
+                            <h6 class="cardCena">Cena: ${e.price} eur</h6>
+                            <a href="izdelek.html?id=${e.ID}" class="btn btn-secondary cardPoglej">Poglej si</a>
+                            <button class="btn cardVKosarico vKosarico btn-primary" onclick="dodajVKosarico(${e.ID})">v Košarico</button>
                         </div>
                     </div>`;
         })
@@ -446,7 +445,7 @@ async function isci() {
             return `
             <div class="col-12 col-md-6 col-lg-4 col-xl-3">
                 <div class="card">
-                    <img src="${e.image}" class="card-img-top" alt="...">
+                    <a href="article.html?id=${e.articleID}" class="aimg"><img src="${e.image}" class="card-img-top" alt="..."></a>
                     <h5 class="card-titl">${e.title}</h5>
                     <p class="card-tex">${e.contentShort}</p>
                     <a href="article.html?id=${e.articleID}" class="btn cardPoglej">Preberi članek</a>
