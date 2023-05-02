@@ -44,12 +44,6 @@ body {
   color: #FDDF46;
 }
 
-#naslovnaSlike {
-  height: 40vh;
-  overflow: hidden;
-  position: relative;
-}
-
 #najboljProdajano .najboljProdajanoNaslov {
   margin-top: 20px;
   height: 90px;
