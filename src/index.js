@@ -13,8 +13,8 @@ if(najboljProdajani) {
                 if(e.najboljProdajano) {
                     return `<div class="col-12 col-md-6 col-lg-4 col-xl-3">
                                 <div class="card">
-                                    <img src="${e.image}" class="card-img-top" alt="...">
                                     
+                                    <a class="aimg" href="izdelek.html?id=${e.ID}"><img src="${e.image}" class="card-img-top" alt="..."></a>
                                         <h5 class="card-titl">${e.name}</h5>
                                         <p class="card-tex">${e.description}</p>
                                         <h6 class="cardCena">Cena: ${e.price} eur</h6>
@@ -44,7 +44,7 @@ if(zadnjiClanki2) {
                     return `
                     <div class="col-12 col-md-6 col-lg-4 col-xl-3">
                         <div class="card">
-                            <img src="${e.image}" class="card-img-top" alt="...">
+                            <a href="article.html?id=${e.articleID}" class="aimg"><img src="${e.image}" class="card-img-top" alt="..."></a>
                             <h5 class="card-titl">${e.title}</h5>
                             <p class="card-tex">${e.contentShort}</p>
                             <a href="article.html?id=${e.articleID}" class="btn cardPoglej">Preberi članek</a>
@@ -76,7 +76,7 @@ async function prikaziIzdelke(kategorija = 0) {
             if(e.productCategorryID == kategorija || kategorija == 0) {
                 return `<div class="col-12 col-md-6 col-lg-4 col-xl-3">
                             <div class="card">
-                                <img src="${e.image}" class="card-img-top" alt="...">
+                                    <a href="izdelek.html?id=${e.ID}" class="aimg"><img src="${e.image}" class="card-img-top" alt="..."></a>
                                     <h5 class="card-titl">${e.name}</h5>
                                     <p class="card-tex">${e.description}</p>
                                     <h6 class="cardCena">Cena: ${e.price} eur</h6>
@@ -328,7 +328,7 @@ async function prikaziBlog() {
             return `
                 <div class="col-12 col-md-6 col-lg-4 col-xl-3">
                     <div class="card">
-                        <img src="${e.image}" class="card-img-top" alt="...">
+                        <a href="article.html?id=${e.articleID}" class="aimg"><img src="${e.image}" class="card-img-top" alt="..."></a>
                         <h5 class="card-titl">${e.title}</h5>
                         <p class="card-tex">${e.contentShort}</p>
                         <a href="article.html?id=${e.articleID}" class="btn cardPoglej">Preberi članek</a>
