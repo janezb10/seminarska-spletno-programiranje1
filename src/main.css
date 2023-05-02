@@ -430,6 +430,51 @@ body {
   background-color: #FDDF46;
 }
 
+#kontakt {
+  color: #04286E;
+}
+#kontakt h2, #kontakt .h2 {
+  background-color: rgba(253, 223, 70, 0.5);
+  padding: 0.5rem 1rem;
+}
+#kontakt .k-form {
+  background-color: rgba(255, 255, 255, 0.4);
+  padding: 1.3rem;
+}
+#kontakt .k-form form {
+  max-width: 700px;
+  margin: auto;
+}
+#kontakt .k-form form .form-group {
+  margin-top: 1rem;
+}
+#kontakt .k-form form .form-group input::-webkit-outer-spin-button,
+#kontakt .k-form form .form-group input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+#kontakt .k-form form .form-group input[type=number] {
+  -moz-appearance: textfield;
+}
+#kontakt .k-form form .form-group input, #kontakt .k-form form .form-group textarea {
+  background-color: rgba(253, 223, 70, 0.4);
+  font-size: 1.2rem;
+}
+#kontakt .k-form form .form-group input::-moz-placeholder, #kontakt .k-form form .form-group textarea::-moz-placeholder {
+  color: #898989;
+}
+#kontakt .k-form form .form-group input::placeholder, #kontakt .k-form form .form-group textarea::placeholder {
+  color: #898989;
+}
+#kontakt .k-form form .form-group input:focus, #kontakt .k-form form .form-group textarea:focus {
+  background-color: rgba(255, 255, 255, 0.2);
+  border: 2px solid #FDDF46;
+  box-shadow: none;
+}
+#kontakt .k-form form button {
+  margin: 1.5rem 0;
+}
+
 footer {
   background-color: rgba(0, 0, 0, 0.2);
   padding: 20px;

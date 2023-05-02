@@ -543,6 +543,62 @@ body {
     }
 }
 
+#kontakt {
+    color: $primary;
+
+    h2 {
+        background-color: rgba(253, 223, 70, 0.5);
+        padding: 0.5rem 1rem;
+    }
+    .k-form {
+        background-color: rgba(360,360,360,0.4);
+        padding: 1.3rem;
+
+        form {
+            max-width: 700px;
+            margin: auto;
+
+            .form-group {
+                margin-top: 1rem;
+
+                input::-webkit-outer-spin-button,
+                input::-webkit-inner-spin-button {
+                    -webkit-appearance: none;
+                    margin: 0;
+                }
+                input[type=number] {
+                    -moz-appearance: textfield;
+                }
+
+                input, textarea {
+                    background-color: rgba(253, 223, 70, 0.4);
+                    font-size: 1.2rem;
+                    
+                    &::placeholder {
+                        color: #898989;
+                    }
+                    &:focus {
+                        background-color: rgba(360,360,360,0.2);
+                        border: 2px solid $secondary;
+                        box-shadow: none;
+
+                    }
+                }
+            }
+            // .f-alert {
+            //     .alert-warning {
+            //         background-color: red;
+            //         border: 2px solid red;
+
+            //     }
+            // }
+
+            button {
+                margin: 1.5rem 0;
+            }
+        }
+    }
+}
 
 footer {
     // background-color: #000000;

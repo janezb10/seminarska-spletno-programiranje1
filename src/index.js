@@ -474,3 +474,68 @@ formIskanje.addEventListener("submit", function(e) {
         window.location.href = `iskanje.html?niz=${text}`;
     }
 });
+
+
+function kontaktPreveri() {
+    const imePriimek = document.getElementById("f-imePriimek");
+    const podjetje = document.getElementById("f-podjetje");
+    const telefon = document.getElementById("f-telefon");
+    const email = document.getElementById("f-email");
+    const opis = document.getElementById("f-opis");
+
+    let test = true;
+    let alert = "";
+
+    if(!/^[A-Za-z\s]*$/.test(imePriimek.value) || imePriimek.value == "") {
+        test = false;
+        alert += `
+            <div class="alert alert-warning" role="alert">
+                Ime in Priimek nista pravilno Vnešena!
+            </div>
+        `;
+        imePriimek.style = "border: 2px solid #FF4676;";
+    }
+    if(!/^[A-Za-z0-9]*$/.test(podjetje.value) || podjetje.value == "") {
+        test = false;
+        alert += `
+            <div class="alert alert-warning" role="alert">
+                Podjetje ni pravilno vnešeno v polje!
+            </div>
+        `;
+        podjetje.style = "border: 2px solid #FF4676;";
+    }
+    if(!/^\d+$/.test(telefon.value) || telefon.value == "") {
+        test = false;
+        alert += `
+            <div class="alert alert-warning" role="alert">
+                Telefon ni pravilno vnešen!
+            </div>
+        `;
+        telefon.style = "border: 2px solid #FF4676;";
+    }
+    if(!/^(([^<>()[\]\.,;:\s@\"]+(\.[^<>()[\]\.,;:\s@\"]+)*)|(\".+\"))@(([^<>()[\]\.,;:\s@\"]+\.)+[^<>()[\]\.,;:\s@\"]{2,})$/i.test(email.value) || email.value == "") {
+        test = false;
+        alert += `
+            <div class="alert alert-warning" role="alert">
+                Vnesite pravi email naslov!
+            </div>
+        `;
+        email.style = "border: 2px solid #FF4676;";
+    }
+    if(opis.value == "") {
+        test = false;
+        alert += `
+            <div class="alert alert-warning" role="alert">
+                Opis ne sme biti prazen!
+            </div>
+        `;
+        opis.style = "border: 2px solid #FF4676;";
+    }
+
+    if(!test) {
+        fAlert = document.getElementById("f-alert");
+        fAlert.innerHTML = alert;
+    }
+
+    return test;
+}

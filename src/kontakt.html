@@ -49,8 +49,34 @@
         </nav>
   </header>
     <div class="container">
-        <main>
-
+        <main id="kontakt">
+          <h2>Kontakt</h2>
+          <div class="k-form">
+            <form id="kontakt-form" onsubmit="return kontaktPreveri()">
+              <div class="form-group">
+                <label for="f-imePriimek">Ime in priimek</label>
+                <input type="text" class="form-control" id="f-imePriimek" aria-describedby="emailHelp" placeholder="Janez Novak">
+              </div>
+              <div class="form-group">
+                <label for="f-podjetje">Podjetje</label>
+                <input type="text" class="form-control" id="f-podjetje" aria-describedby="emailHelp" placeholder="Janez Novak S.P.">
+              </div>
+              <div class="form-group">
+                <label for="f-telefon">Telefon</label>
+                <input type="number" class="form-control" id="f-telefon" placeholder="012 345 678">
+              </div>
+              <div class="form-group">
+                <label for="f-email">Email naslov</label>
+                <input type="email" class="form-control" id="f-email" aria-describedby="emailHelp" placeholder="email@domain.com">
+              </div>
+              <div class="form-group">
+                <label for="f-opis">Podrobnejši opis</label>
+                <textarea class="form-control" id="f-opis" rows="3" placeholder="Pozdravljeni,..."></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary">Pošlji</button>
+              <div id="f-alert"></div>
+            </form>
+          </div>
         </main>
       </div>
       <footer class="">
