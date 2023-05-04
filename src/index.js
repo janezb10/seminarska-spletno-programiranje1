@@ -11,15 +11,14 @@ if(najboljProdajani) {
         const najboljProdajaniIzdelkiHTML = products
             .map(e => {
                 if(e.najboljProdajano) {
-                    return `<div class="col-12 col-md-6 col-lg-4 col-xl-3">
+                    return `<div class="col-12 col-md-6 col-lg-6 col-xl-4 col-xxl-3">
                                 <div class="card">
-                                    
                                     <a class="aimg" href="izdelek.html?id=${e.ID}"><img src="${e.image}" class="card-img-top" alt="..."></a>
-                                        <h5 class="card-titl">${e.name}</h5>
-                                        <p class="card-tex">${e.description}</p>
-                                        <h6 class="cardCena">Cena: ${e.price} eur</h6>
-                                        <a href="izdelek.html?id=${e.ID}" class="btn btn-secondary cardPoglej">Poglej si</a>
-                                        <button class="btn cardVKosarico vKosarico btn-primary" onclick="dodajVKosarico(${e.ID})">v Košarico</button>
+                                    <h5 class="card-titl">${e.name}</h5>
+                                    <p class="card-tex">${e.description}</p>
+                                    <h6 class="cardCena">Cena: ${e.price} eur</h6>
+                                    <a href="izdelek.html?id=${e.ID}" class="btn btn-secondary cardPoglej">Poglej si</a>
+                                    <button class="btn cardVKosarico vKosarico btn-primary" onclick="dodajVKosarico(${e.ID})">v Košarico</button>
                                 </div>
                             </div>`;
                 } else {
@@ -42,7 +41,7 @@ if(zadnjiClanki2) {
             .map(e => {
                 if(e.naNaslovniStrani) {
                     return `
-                    <div class="col-12 col-md-6 col-lg-4 col-xl-3">
+                    <div class="col-12 col-md-6 col-lg-6 col-xl-4 col-xxl-3">
                         <div class="card">
                             <a href="article.html?id=${e.articleID}" class="aimg"><img src="${e.image}" class="card-img-top" alt="..."></a>
                             <h5 class="card-titl">${e.title}</h5>
@@ -74,7 +73,7 @@ async function prikaziIzdelke(kategorija = 0) {
     let izdelkiHTML = products
         .map(e => {
             if(e.productCategorryID == kategorija || kategorija == 0) {
-                return `<div class="col-12 col-md-6 col-lg-4 col-xl-3">
+                return `<div class="col-12 col-md-6 col-lg-6 col-xl-4 col-xxl-3">
                             <div class="card">
                                     <a href="izdelek.html?id=${e.ID}" class="aimg"><img src="${e.image}" class="card-img-top" alt="..."></a>
                                     <h5 class="card-titl">${e.name}</h5>
@@ -328,7 +327,7 @@ async function prikaziBlog() {
     const blogHTML = articles
         .map(e => {
             return `
-                <div class="col-12 col-md-6 col-lg-4 col-xl-3">
+                <div class="col-12 col-md-6 col-lg-6 col-xl-4 col-xxl-3">
                     <div class="card">
                         <a href="article.html?id=${e.articleID}" class="aimg"><img src="${e.image}" class="card-img-top" alt="..."></a>
                         <h5 class="card-titl">${e.title}</h5>
@@ -423,7 +422,7 @@ async function isci() {
     let zadetkiHTML = '<h2>Zadetki iskanja - Izdelki: </h2> <div class="row zadetkiProducts">';
     let umes = zadetkiProducts
         .map(e => {
-            return `<div class="col-12 col-md-6 col-lg-4 col-xl-3">
+            return `<div class="col-12 col-md-6 col-lg-6 col-xl-4 col-xxl-3">
                         <div class="card">
                             <a href="izdelek.html?id=${e.ID}" class="aimg"><img src="${e.image}" class="card-img-top" alt="..."></a>
                             <h5 class="card-titl">${e.name}</h5>
@@ -445,7 +444,7 @@ async function isci() {
     let umes2 = zadetkiArticles
         .map(e => {
             return `
-            <div class="col-12 col-md-6 col-lg-4 col-xl-3">
+            <div class="col-12 col-md-6 col-lg-6 col-xl-4 col-xxl-3">
                 <div class="card">
                     <a href="article.html?id=${e.articleID}" class="aimg"><img src="${e.image}" class="card-img-top" alt="..."></a>
                     <h5 class="card-titl">${e.title}</h5>
