@@ -339,7 +339,6 @@ async function prikaziBlog() {
             `;})
         .join("");
     blog.innerHTML = blogHTML;
-    // console.log(articles);
 }
 
 const article = document.getElementById("article");

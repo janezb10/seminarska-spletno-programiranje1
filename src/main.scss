@@ -88,11 +88,6 @@ body {
 
 }
 
-#naslovnaSlike {
-
-}
-
-
 #najboljProdajano {
     .najboljProdajanoNaslov {
         margin-top: 20px;
@@ -149,9 +144,6 @@ body {
         .cardVKosarico {
             margin: 0.5rem;
             grid-area: 9 / 4 / 10 / 6;
-        }
-        .card-text {
-
         }
     }
 }
@@ -266,8 +258,6 @@ body {
             }
         }
     }
-    #seznamIzdelkov {
-    }
     .card {
         margin:auto;
         border: 1px solid $primary;
@@ -313,10 +303,6 @@ body {
             margin: 0.5rem;
             grid-area: 9 / 4 / 10 / 6;
         }
-    
-        .card-text {
-
-        }
     }
 }
 
@@ -327,14 +313,10 @@ body {
         color: $primary;
     }
     .izdelekOpis {
-        // width: 100%;
         margin: 0;
         background-color: rgba(255, 238, 149, 0.5);
         .izdelekSlika {
             padding: 2rem;
-            img {
-                
-            }
         }
         .izdelekContent {
             padding: 2rem 1rem 0.5rem;
@@ -343,9 +325,6 @@ body {
     .izdelekKosarica {
         background-color: rgba(253, 223, 70, 0.5);
         padding: 1rem 1rem 2rem;
-        button {
-            
-        }
     }
 }
 
@@ -504,10 +483,6 @@ body {
                 margin: 0.5rem;
                 grid-area: 9 / 4 / 10 / 6;
             }
-        
-            .card-text {
-    
-            }
         }
     }
     .zadetkiArticles {
@@ -641,14 +616,10 @@ body {
 }
 
 footer {
-    // background-color: #000000;
-    // opacity: 0.2;
     background-color: rgba(0, 0, 0, 0.2);
-
-    // padding: 20px;
     color: $secondary;
     ul {
-        padding-left: 20rem;
+        padding: 0.5rem 1rem;
         a {
             color: $light;
             text-decoration: none;
