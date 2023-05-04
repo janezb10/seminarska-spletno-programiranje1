@@ -53,6 +53,23 @@ body {
         .nav-link {
             color: $primary;
             white-space: nowrap;
+            
+            span {
+                margin: auto;
+                border-radius: 30%;
+                // height: 2rem;
+                padding: 0 0.7rem;
+                // width: 2rem;
+                // background-color: $secondary;
+                border: 1px solid $primary;
+                display: none;
+                justify-content: center;
+                align-items: center;
+
+                b {
+                    font-weight: 500;
+                }
+            }
         }
 
         .navbar-toggler {
@@ -628,15 +645,18 @@ footer {
     // opacity: 0.2;
     background-color: rgba(0, 0, 0, 0.2);
 
-    padding: 20px;
+    // padding: 20px;
     color: $secondary;
-    a {
-        color: $light;
-        text-decoration: none;
-        padding-left: 0.5rem;
-
-        &:hover {
-            color: $secondary;
+    ul {
+        padding-left: 20rem;
+        a {
+            color: $light;
+            text-decoration: none;
+            padding-left: 0.5rem;
+    
+            &:hover {
+                color: $secondary;
+            }
         }
     }
 }

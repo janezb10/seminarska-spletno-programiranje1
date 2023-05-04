@@ -157,7 +157,6 @@ async function prikaziIzdelek() {
     }
     izdelek.innerHTML = izdelekHTML;
     pobarvaj();
-
 }
 
 
@@ -174,6 +173,7 @@ function dodajVKosarico(id) {
         izdelkiVKosarici.push({id: id, kolicina: 1});
     }
     sessionStorage.setItem("izdelkiVKosarici", JSON.stringify(izdelkiVKosarici));
+    kosaricaHeader();
 };
 
 function odstraniIzKosarice(id) {
@@ -188,6 +188,7 @@ function odstraniIzKosarice(id) {
     }
     sessionStorage.setItem("izdelkiVKosarici", JSON.stringify(izdelkiVKosarici));
     prikaziIzdelkeVKosarici();
+    kosaricaHeader();
 };
 
 
@@ -264,6 +265,7 @@ async function prikaziIzdelkeVKosarici() {
     document.getElementById("stIzdelkov").innerText = stIzdelkov;
     document.getElementById("cenaTotal").innerText = totalPriceZDostavo(cenaIzdelki);
     kosaricaSeznam.innerHTML = izdelkiVKosariciHTML;
+    kosaricaHeader();
 };
 
 if(kosarica) {
@@ -288,8 +290,9 @@ function kosaricaSpremembaKolicine(id, vecManj) {
                 }
             }
         }
-        sessionStorage.setItem("izdelkiVKosarici", JSON.stringify(izdelkiVKosarici));
-        prikaziIzdelkeVKosarici();
+    sessionStorage.setItem("izdelkiVKosarici", JSON.stringify(izdelkiVKosarici));
+    prikaziIzdelkeVKosarici();
+    kosaricaHeader();
 }
 
 function totalPriceZDostavo(cenaIzdelki) {
@@ -536,3 +539,25 @@ function kontaktPreveri() {
     }
     return test;
 }
+
+function kosaricaHeader() {
+    let izdelkiVKosarici = [];
+    if(sessionStorage.getItem("izdelkiVKosarici")) {
+        izdelkiVKosarici = [...JSON.parse(sessionStorage.getItem("izdelkiVKosarici"))];
+    }
+    let izdelkovVKosarici = 0;
+    if(izdelkiVKosarici.length !== 0) {
+        for(i=0; i<izdelkiVKosarici.length; i++) {
+            izdelkovVKosarici += izdelkiVKosarici[i].kolicina;
+        }
+        document.getElementById("navKosaricaStevilo").innerHTML = `<b>${izdelkovVKosarici}</b>`;
+        document.getElementById("navKosaricaStevilo").style.display = "inline-flex";
+    }
+    else {
+        document.getElementById("navKosaricaStevilo").style.display = "none";
+    }
+    
+}
+window.addEventListener("load", (e) => {
+    kosaricaHeader();
+});
